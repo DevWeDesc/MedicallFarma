@@ -14,3 +14,17 @@ export type IProductsData = {
 type ICategoriesProducts = {
   category: string;
 };
+
+export type ICardSoluctions = {
+  title: string;
+  image: StaticImageData | string;
+};
+
+export type ICategories = {
+  image: string | StaticImageData;
+  name: string;
+};
+
+export type IDataNav = {
+  name: string;
+};
