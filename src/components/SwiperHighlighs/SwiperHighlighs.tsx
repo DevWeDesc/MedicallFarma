@@ -7,6 +7,7 @@ import { Navigation } from "swiper/modules";
 import "./styles.css";
 import { HighlightsProductsData } from "../../../data/data";
 import Image from "next/image";
+import { CardProduct } from "../CardProduct";
 
 export default function SwiperHighlighs() {
   return (
@@ -19,14 +20,13 @@ export default function SwiperHighlighs() {
       >
         {HighlightsProductsData.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="flex flex-col gap-2">
-              <Image alt="" src={item.image} />
-              <div>
-                <p className="text-xs font-medium min-h-[32px]">{item.name}</p>
-                <p className="text-xs font-light pr-3">{item.content}</p>
-                <p className="text-xs font-medium">{item.supplier}</p>
-              </div>
-            </div>
+            <CardProduct
+              id={item.id}
+              content={item.content}
+              image={item.image}
+              name={item.name}
+              supplier={item.supplier}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
