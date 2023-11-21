@@ -12,7 +12,7 @@ import { Suppliers } from "@/components/Suppliers";
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <main className="">
         <Banner />
         <Aboult />
