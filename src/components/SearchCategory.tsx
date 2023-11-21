@@ -1,5 +1,6 @@
 import React from "react";
 import { CategoriesData } from "../../data/data";
+import Image from "next/image";
 
 export const SearchCategory = () => {
   return (
@@ -8,9 +9,13 @@ export const SearchCategory = () => {
 
       <div className="grid grid-cols-3 gap-3">
         {CategoriesData.map((item) => (
-          <p className="text-xs text-center py-8 bg-gray-100" key={item.name}>
-            {item.name}
-          </p>
+          <div
+            className="text-xs flex flex-col justify-center items-center text-center py-6"
+            key={item.name}
+          >
+            <Image alt="" src={item.image} />
+            <p>{item.name}</p>
+          </div>
         ))}
       </div>
     </div>
