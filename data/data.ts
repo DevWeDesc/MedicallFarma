@@ -10,6 +10,9 @@ import Product3 from "../public/ImageProduct3.png";
 import IconDiet from "../public/IconDiet.png";
 import IconMedicine from "../public/IconMedicine.png";
 import IconMaterial from "../public/IconMaterial.png";
+import IconDressing from "../public/IconDressings.png";
+import IconAntissepsia from "../public/IconAntissepsia.png";
+import IconMask from "../public/IconMask.png";
 
 export const HighlightsProductsData: IProductsData[] = [
   {
@@ -17,15 +20,16 @@ export const HighlightsProductsData: IProductsData[] = [
     image: Product1,
     name: "Amoxicilina",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 2,
     image: Product2,
     name: "Estetoscópio Simples Adulto Premium",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
   },
   {
@@ -33,16 +37,18 @@ export const HighlightsProductsData: IProductsData[] = [
     image: Product3,
     name: "Trophic Basic Enteral",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 4,
     image: Product1,
     name: "Amoxicilina",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
 ];
 
@@ -52,48 +58,54 @@ export const ProductsRecomendedData: IProductsData[] = [
     image: Product1,
     name: "Amoxicilina",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 2,
     image: Product2,
     name: "Estetoscópio Simples Adulto Premium",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 3,
     image: Product3,
     name: "Trophic Basic Enteral",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 4,
     image: Product1,
     name: "Amoxicilina",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 5,
     image: Product2,
     name: "Estetoscópio Simples Adulto Premium",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 6,
     image: Product3,
     name: "Trophic Basic Enteral",
     content:
-      "Amoxicilina é um antibiótico amplamente utilizado para tratar infecções bacterianas.",
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
   },
 ];
 
@@ -104,12 +116,12 @@ export const CardSoluctionData: ICardSoluctions[] = [
 ];
 
 export const CategoriesData: ICategories[] = [
-  { image: "", name: "Antissepsia e Higiene" },
-  { image: "", name: "Curativos" },
-  { image: "", name: "Soluções Descartáveis" },
-  { image: "", name: "Endoscopia" },
-  { image: "", name: "Nutrição e Dietas" },
-  { image: "", name: "Nutrição e Dietas" },
+  { image: IconDressing, name: "Antissepsia e Higiene" },
+  { image: IconMask, name: "Curativos" },
+  { image: IconAntissepsia, name: "Soluções Descartáveis" },
+  // { image: "", name: "Endoscopia" },
+  // { image: "", name: "Nutrição e Dietas" },
+  // { image: "", name: "Nutrição e Dietas" },
 ];
 
 export const NavData: IDataNav[] = [
