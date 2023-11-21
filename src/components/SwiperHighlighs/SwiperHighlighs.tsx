@@ -2,12 +2,13 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import "./styles.css";
 import { HighlightsProductsData } from "../../../data/data";
 import Image from "next/image";
 import { CardProduct } from "../CardProduct";
+import Link from "next/link";
 
 export default function SwiperHighlighs() {
   return (
@@ -20,13 +21,15 @@ export default function SwiperHighlighs() {
       >
         {HighlightsProductsData.map((item) => (
           <SwiperSlide key={item.id}>
-            <CardProduct
-              id={item.id}
-              content={item.content}
-              image={item.image}
-              name={item.name}
-              supplier={item.supplier}
-            />
+            <Link href={`/detailsProduct/${item.id}`}>
+              <CardProduct
+                id={item.id}
+                content={item.content}
+                image={item.image}
+                name={item.name}
+                supplier={item.supplier}
+              />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

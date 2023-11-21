@@ -7,13 +7,13 @@ export type IProductsData = {
   content: string;
   contentCompleted?: string;
   description?: string;
-  categories?: ICategoriesProducts[];
+  categories?: string[];
   supplier: string;
 };
 
-type ICategoriesProducts = {
-  category: string;
-};
+// type ICategoriesProducts = {
+//   category: string;
+// };
 
 export type ICardSoluctions = {
   title: string;
