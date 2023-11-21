@@ -9,6 +9,7 @@ export default function SolutionsMoment() {
       <div className="w-full grid grid-cols-3 gap-1">
         {CardSoluctionData.map((item) => (
           <CardSolutions
+            href={item.href}
             key={item.title}
             image={item.image}
             title={item.title}
