@@ -9,56 +9,61 @@ export const CardProduct = ({
   content,
   supplier,
   categories,
+  size,
 }: IProductsData) => {
-  const [configCard, setConfigCard] = useState("");
+  // const [size, setConfigCard] = useState("");
   const [contentProduct, setContentProduct] = useState("");
 
   useEffect(() => {
-    if (location) {
-      location.pathname != "/" && setConfigCard("large");
-    }
-    configCard === "large"
+    size === "large"
       ? setContentProduct(content)
       : setContentProduct(content?.substring(0, 83));
-  }, [configCard]);
+  }, [contentProduct]);
 
   return (
     <div
       className={`flex flex-col text-left ${
-        configCard === "large" ? "gap-4 items-center" : "gap-2"
+        size === "large" ? "gap-4 items-center" : "gap-2"
       } gap-2`}
     >
       <Image alt="" src={image} />
-      <div className={`${configCard === "large" && "flex flex-col gap-2"}`}>
+      <div className={`${size === "large" && "flex flex-col gap-2"}`}>
         <p
           className={`font-medium min-h-[32px] ${
-            configCard === "large" ? "text-2xl" : "text-xs "
+            size === "large" ? "text-2xl" : "text-xs "
           }`}
         >
           {name}
         </p>
         <p
           className={`font-light pr-3 ${
-            configCard === "large" ? "text-sm opacity-70" : "text-xs"
+            size === "large" ? "text-sm opacity-70" : "text-xs"
           }`}
         >
           {contentProduct}
         </p>
         <p
           className={`font-medium  ${
-            configCard === "large" ? "text-base" : "text-xs"
+            size === "large" ? "text-base" : "text-xs"
           }`}
         >
           {supplier}
         </p>
-        {configCard === "large" && (
-          <div>
-            <button>Solicitar um Orçamento</button>
-            <p>
+        {size === "large" && (
+          <div className="mt-4 flex flex-col gap-2">
+            <button className="w-full rounded-full py-2 bg-grayLight hover:bg-grayDefault transition-all text-white ">
+              Solicitar um Orçamento
+            </button>
+            <p className="font-medium">
               Categorias:{" "}
-              {categories?.map((item, index) => (
-                <span key={index}>{item}</span>
-              ))}
+              {categories?.map((item, index) => {
+                let TextCategories =
+                  index === categories.length - 1
+                    ? item.concat(".")
+                    : item.concat(", ");
+
+                return <span key={index}>{TextCategories}</span>;
+              })}
             </p>
           </div>
         )}
