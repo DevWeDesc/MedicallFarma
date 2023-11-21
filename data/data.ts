@@ -39,7 +39,7 @@ export const HighlightsProductsData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Dieta Enteral", "Nutrição Clínica", "Terapia Nutricional"],
   },
   {
     id: 4,
@@ -61,6 +61,24 @@ export const ProductsRecomendedData: IProductsData[] = [
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
     categories: ["Medicamentos", "Medicamento Genérico"],
+
+    description: [
+      {
+        title: "O que é amoxicilina?",
+        content:
+          "Amoxicilina 500 mg é um antibiótico indicado para o tratamento de uma gama de infecções causadas por bactérias. O medicamento é comercializado na forma de cápsulas não mastigáveis.",
+      },
+      {
+        title: "Para que serve amoxicilina?",
+        content:
+          "Este medicamento, antibiótico eficaz contra grande variedade de bactérias, é indicado para tratamento de infecções bacterianas causadas por germes sensíveis à ação da amoxicilina. Entretanto, seu médico pode receitar este medicamento para outro uso.",
+      },
+      {
+        title: "Gram-positivos",
+        content:
+          "Aeróbios: Enterococcus faecalis, Streptococcus pneumoniae, Streptococcus pyogenes, Streptococcus viridans, Staphylococcus aureus sensível a penicilina, espécies de Corynebacterium, Bacillus anthracis, Listeria monocytogenes. Anaeróbios: espécies de Clostridium.",
+      },
+    ],
   },
   {
     id: 2,
@@ -69,7 +87,25 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Materiais Medicos", "Medicamentos", "Medicamento Genérico"],
+
+    description: [
+      {
+        title: "O que é amoxicilina?",
+        content:
+          "Amoxicilina 500 mg é um antibiótico indicado para o tratamento de uma gama de infecções causadas por bactérias. O medicamento é comercializado na forma de cápsulas não mastigáveis.",
+      },
+      {
+        title: "Para que serve amoxicilina?",
+        content:
+          "Este medicamento, antibiótico eficaz contra grande variedade de bactérias, é indicado para tratamento de infecções bacterianas causadas por germes sensíveis à ação da amoxicilina. Entretanto, seu médico pode receitar este medicamento para outro uso.",
+      },
+      {
+        title: "Gram-positivos",
+        content:
+          "Aeróbios: Enterococcus faecalis, Streptococcus pneumoniae, Streptococcus pyogenes, Streptococcus viridans, Staphylococcus aureus sensível a penicilina, espécies de Corynebacterium, Bacillus anthracis, Listeria monocytogenes. Anaeróbios: espécies de Clostridium.",
+      },
+    ],
   },
   {
     id: 3,
@@ -78,7 +114,24 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Dietas Enterais", "Nutrição Clínica", "Terapia Nutricional"],
+    description: [
+      {
+        title: "O que é amoxicilina?",
+        content:
+          "Amoxicilina 500 mg é um antibiótico indicado para o tratamento de uma gama de infecções causadas por bactérias. O medicamento é comercializado na forma de cápsulas não mastigáveis.",
+      },
+      {
+        title: "Para que serve amoxicilina?",
+        content:
+          "Este medicamento, antibiótico eficaz contra grande variedade de bactérias, é indicado para tratamento de infecções bacterianas causadas por germes sensíveis à ação da amoxicilina. Entretanto, seu médico pode receitar este medicamento para outro uso.",
+      },
+      {
+        title: "Gram-positivos",
+        content:
+          "Aeróbios: Enterococcus faecalis, Streptococcus pneumoniae, Streptococcus pyogenes, Streptococcus viridans, Staphylococcus aureus sensível a penicilina, espécies de Corynebacterium, Bacillus anthracis, Listeria monocytogenes. Anaeróbios: espécies de Clostridium.",
+      },
+    ],
   },
   {
     id: 4,
@@ -96,7 +149,7 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Materiais Medicos", "Medicamentos", "Medicamento Genérico"],
   },
   {
     id: 6,
@@ -110,9 +163,21 @@ export const ProductsRecomendedData: IProductsData[] = [
 ];
 
 export const CardSoluctionData: ICardSoluctions[] = [
-  { image: IconMedicine, title: "Medicamentos" },
-  { image: IconDiet, title: "Dietas Enterais" },
-  { image: IconMaterial, title: "Materiais Médicos" },
+  {
+    image: IconMedicine,
+    title: "Medicamentos",
+    href: "/Medicamentos",
+  },
+  {
+    image: IconDiet,
+    title: "Dietas Enterais",
+    href: "/Dietas Enterais",
+  },
+  {
+    image: IconMaterial,
+    title: "Materiais Médicos",
+    href: "/Materiais Medicos",
+  },
 ];
 
 export const CategoriesData: ICategories[] = [
