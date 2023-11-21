@@ -1,3 +1,4 @@
+import { Url } from "next/dist/shared/lib/router/router";
 import { StaticImageData } from "next/image";
 
 export type IProductsData = {
@@ -6,9 +7,10 @@ export type IProductsData = {
   name: string;
   content: string;
   contentCompleted?: string;
-  description?: string;
+  description?: { title: string; content: string }[];
   categories?: string[];
   supplier: string;
+  size?: string;
 };
 
 // type ICategoriesProducts = {
@@ -18,6 +20,7 @@ export type IProductsData = {
 export type ICardSoluctions = {
   title: string;
   image: StaticImageData | string;
+  href: string;
 };
 
 export type ICategories = {
