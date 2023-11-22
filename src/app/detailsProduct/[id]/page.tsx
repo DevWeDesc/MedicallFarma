@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { ProductsRecomendedData } from "../../../../data/data";
 import { ProductsRecommended } from "@/components/ProductsRecommended";
 import { IProductsData } from "../../../../types/types";
-import { CardProduct } from "@/components/CardProduct";
+import { CardProduct } from "@/components/Cards/CardProduct";
 import Link from "next/link";
 import SwiperHighlighs from "@/components/SwiperHighlighs/SwiperHighlighs";
 

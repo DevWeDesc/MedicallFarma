@@ -7,7 +7,7 @@ import ImageAcessories from "../../../public/ImageAcessoriesMedic.png";
 import ImageMedicaments from "../../../public/ImageMedicaments.png";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import { CardProduct } from "@/components/CardProduct";
+import { CardProduct } from "@/components/Cards/CardProduct";
 
 export default function Page({ params }: { params: { category: string } }) {
   let { category } = params;
