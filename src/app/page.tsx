@@ -11,20 +11,16 @@ import { Suppliers } from "@/components/Suppliers";
 
 export default function Home() {
   return (
-    <div>
-      {/* <Header /> */}
-      <main className="">
-        <Banner />
-        <Aboult />
-        <HighlightsProducts />
-        <SolutionsMoment />
-        <SearchCategory />
-        <Separator />
-        <Suppliers />
-        <Separator />
-        <ProductsRecommended />
-      </main>
-      <Footer />
-    </div>
+    <main className="">
+      <Banner />
+      <Aboult />
+      <HighlightsProducts />
+      <SolutionsMoment />
+      <SearchCategory />
+      <Separator />
+      <Suppliers />
+      <Separator />
+      <ProductsRecommended />
+    </main>
   );
 }
