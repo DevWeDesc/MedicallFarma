@@ -1,6 +1,6 @@
 import React from "react";
 import { CardSoluctionData } from "../../data/data";
-import { CardSolutions } from "./CardSolutions";
+import { CardSolutions } from "./Cards/CardSolutions";
 
 export default function SolutionsMoment() {
   return (

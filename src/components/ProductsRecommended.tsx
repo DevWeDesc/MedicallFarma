@@ -1,7 +1,7 @@
 import React from "react";
 import { ProductsRecomendedData } from "../../data/data";
-import { CardProduct } from "./CardProduct";
 import Link from "next/link";
+import { CardProduct } from "./Cards/CardProduct";
 
 export const ProductsRecommended = () => {
   return (

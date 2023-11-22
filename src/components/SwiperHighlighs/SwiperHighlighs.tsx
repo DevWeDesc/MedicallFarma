@@ -7,7 +7,7 @@ import { Navigation } from "swiper/modules";
 import "./styles.css";
 import { HighlightsProductsData } from "../../../data/data";
 import Image from "next/image";
-import { CardProduct } from "../CardProduct";
+import { CardProduct } from "../Cards/CardProduct";
 import Link from "next/link";
 
 export default function SwiperHighlighs() {
