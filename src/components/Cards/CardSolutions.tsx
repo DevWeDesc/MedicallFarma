@@ -19,7 +19,7 @@ export const CardSolutions = ({ image, title, href }: ICardSoluctions) => {
   return (
     <Link href={href}>
       <div
-        className={`relative px-2 pt-3 pb-12 rounded-lg ${bgColorCard} hover:bg-opacity-90 transition-all lg:px-9 lg:py-9`}
+        className={`relative px-2 py-3 rounded-lg ${bgColorCard} hover:bg-opacity-90 transition-all lg:px-9 lg:py-9`}
       >
         <p className="text-sm font-semibold lg:text-4xl">{title}</p>
         <div className="flex items-start justify-between lg:mt-5">
