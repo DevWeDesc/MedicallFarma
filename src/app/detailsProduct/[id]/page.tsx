@@ -18,25 +18,29 @@ export default function Page({ params }: { params: { id: number } }) {
   console.log(productSelected);
 
   return (
-    <div className="pt-20 px-5 flex flex-col gap-10 mb-14">
+    <div className="pt-20 px-5 flex flex-col gap-10 mb-14 lg:px-28">
       <div>
         <div className="my-6 text-sm">
-          <Link href="/">Voltar para Home</Link>
+          <Link href="/" className="lg:text-base">
+            Voltar para Home
+          </Link>
         </div>
-        <CardProduct
-          size="large"
-          content={productSelected.content}
-          id={productSelected.id}
-          image={productSelected.image}
-          name={productSelected.name}
-          supplier={productSelected.supplier}
-          categories={productSelected.categories}
-        />
+        <div className="lg:pr-28">
+          <CardProduct
+            size="large"
+            content={productSelected.content}
+            id={productSelected.id}
+            image={productSelected.image}
+            name={productSelected.name}
+            supplier={productSelected.supplier}
+            categories={productSelected.categories}
+          />
+        </div>
       </div>
       {productSelected.description && (
         <div>
-          <h3 className="text-xl font-medium mb-2">Descrição</h3>
-          <div className="flex flex-col gap-3 text-sm">
+          <h3 className="text-xl font-medium mb-2 lg:text-4xl">Descrição</h3>
+          <div className="flex flex-col gap-3 text-sm lg:text-xl">
             {productSelected?.description?.map((item, index) => (
               <div key={index}>
                 <h4 className="font-medium">{item.title}</h4>
