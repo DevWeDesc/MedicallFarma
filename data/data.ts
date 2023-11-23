@@ -50,6 +50,32 @@ export const HighlightsProductsData: IProductsData[] = [
     supplier: "Fornecido por Nativita",
     categories: ["Medicamentos", "Medicamento Genérico"],
   },
+  {
+    id: 5,
+    image: Product2,
+    name: "Estetoscópio Simples Adulto Premium",
+    content:
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
+    supplier: "Fornecido por Nativita",
+  },
+  {
+    id: 6,
+    image: Product3,
+    name: "Trophic Basic Enteral",
+    content:
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
+    supplier: "Fornecido por Nativita",
+    categories: ["Dieta Enteral", "Nutrição Clínica", "Terapia Nutricional"],
+  },
+  {
+    id: 7,
+    image: Product1,
+    name: "Amoxicilina",
+    content:
+      "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
+    supplier: "Fornecido por Nativita",
+    categories: ["Medicamentos", "Medicamento Genérico"],
+  },
 ];
 
 export const ProductsRecomendedData: IProductsData[] = [

@@ -1,22 +1,28 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import "./styles.css";
 import { HighlightsProductsData } from "../../../data/data";
-import Image from "next/image";
 import { CardProduct } from "../Cards/CardProduct";
 import Link from "next/link";
 
 export default function SwiperHighlighs() {
+  const [slidesPerView, setSlidesPerView] = useState(2.1);
+
+  useEffect(() => {
+    if (window) {
+      window.innerWidth >= 640 ? setSlidesPerView(5) : setSlidesPerView(2.1);
+    }
+  }, []);
   return (
     <>
       <Swiper
         navigation={true}
         modules={[Navigation]}
-        slidesPerView={2.1}
+        slidesPerView={slidesPerView}
+        spaceBetween={slidesPerView === 5 ? 40 : 20}
         className="mySwiper"
       >
         {HighlightsProductsData.map((item) => (

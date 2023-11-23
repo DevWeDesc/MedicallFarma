@@ -29,7 +29,7 @@ export const SearchBar = ({ handleSearchOpen }: ISearchBar) => {
   }, [valueInput]);
 
   return (
-    <div className="bg-grayLight py-1 px-2 gap-2 flex justify-center rounded-full w-full relative">
+    <div className="bg-grayLight py-1 px-2 gap-2 flex justify-center rounded-full w-full relative lg:w-2/3 lg:m-auto">
       <div
         className="h-full flex items-center p-1 text-white justify-center xl:hidden"
         onClick={handleSearchOpen}
@@ -52,7 +52,7 @@ export const SearchBar = ({ handleSearchOpen }: ISearchBar) => {
         <IoIosSearch />
       </label>
       {productSearchFiltered.length > 0 && valueInput.length > 0 && (
-        <div className="absolute max-h-96 px-4 rounded-lg z-10 flex flex-col gap-10 py-6 overflow-auto bg-grayLight mt-10">
+        <div className="absolute max-h-96 px-4 rounded-lg z-10 flex flex-col gap-10 py-6 overflow-hidden hover:overflow-auto transition-all bg-grayLight mt-10 lg:w-full lg:mt-14 lg:px-8">
           {productSearchFiltered.map((item) => (
             <Link
               href={`/detailsProduct/${item.id}`}
@@ -60,11 +60,13 @@ export const SearchBar = ({ handleSearchOpen }: ISearchBar) => {
               onClick={handleSearchOpen}
               className="text-white"
             >
-              <div className="flex items-center gap-2">
-                <Image alt="" height={32} src={item.image} />{" "}
+              <div className="flex items-center gap-2 lg:gap-6">
+                <Image alt="" className="h-8 w-auto lg:h-20" src={item.image} />{" "}
                 <div>
-                  <p className="text-xs">{item.name}</p>
-                  <span className="text-[10px]">
+                  <p className="text-xs lg:text-base font-medium">
+                    {item.name}
+                  </p>
+                  <span className="text-[10px] lg:text-sm">
                     {item.content.substring(0, 23).concat("...")}
                   </span>
                 </div>

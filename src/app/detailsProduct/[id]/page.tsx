@@ -18,7 +18,7 @@ export default function Page({ params }: { params: { id: number } }) {
   console.log(productSelected);
 
   return (
-    <div className="px-5 flex flex-col gap-10 mb-14">
+    <div className="pt-20 px-5 flex flex-col gap-10 mb-14">
       <div>
         <div className="my-6 text-sm">
           <Link href="/">Voltar para Home</Link>

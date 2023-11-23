@@ -33,7 +33,7 @@ export default function Page({ params }: { params: { category: string } }) {
 
   return (
     <div>
-      <div className="relative bg-grayDark text-white">
+      <div className="pt-20 relative bg-grayDark text-white">
         <Image alt="" className="-z-10" src={ImagePage} />
         <Link
           href="/"

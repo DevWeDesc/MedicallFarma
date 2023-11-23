@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { IProductsData } from "../../types/types";
 import Image from "next/image";
+import { IProductsData } from "../../../types/types";
 
 export const CardProduct = ({
   image,
@@ -29,22 +29,22 @@ export const CardProduct = ({
       <Image alt="" src={image} />
       <div className={`${size === "large" && "flex flex-col gap-2"}`}>
         <p
-          className={`font-medium min-h-[32px] ${
-            size === "large" ? "text-2xl" : "text-xs "
+          className={`font-medium min-h-[32px] lg:min-h-[48px] ${
+            size === "large" ? "text-2xl" : "text-xs lg:text-base"
           }`}
         >
           {name}
         </p>
         <p
           className={`font-light pr-3 ${
-            size === "large" ? "text-sm opacity-70" : "text-xs"
+            size === "large" ? "text-sm opacity-70" : "text-xs lg:text-sm"
           }`}
         >
           {contentProduct}
         </p>
         <p
           className={`font-medium  ${
-            size === "large" ? "text-base" : "text-xs"
+            size === "large" ? "text-base" : "text-xs lg:text-base"
           }`}
         >
           {supplier}
