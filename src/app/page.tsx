@@ -11,16 +11,30 @@ import { Suppliers } from "@/components/Suppliers";
 
 export default function Home() {
   return (
-    <main className="">
-      <Banner />
-      <Aboult />
-      <HighlightsProducts />
-      <SolutionsMoment />
-      <SearchCategory />
+    <main>
+      <section id="Init">
+        <Banner />
+      </section>
+      <section id="About">
+        <Aboult />
+      </section>
+      <section id="HighlightsProduct">
+        <HighlightsProducts />
+      </section>
+      <section id="Soluctions">
+        <SolutionsMoment />
+      </section>
+      <section id="Categories">
+        <SearchCategory />
+      </section>
       <Separator />
-      <Suppliers />
+      <section id="Suppliers">
+        <Suppliers />
+      </section>
       <Separator />
-      <ProductsRecommended />
+      <section id="productRecomended">
+        <ProductsRecommended />
+      </section>
     </main>
   );
 }
