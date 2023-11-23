@@ -1,6 +1,16 @@
 import { Url } from "next/dist/shared/lib/router/router";
 import { StaticImageData } from "next/image";
 
+export type NavType = {
+  menuOpen: boolean;
+  handleMenuOpen: () => void;
+};
+
+export type IDataNav = {
+  href: string;
+  name: string;
+};
+
 export type IProductsData = {
   id: number;
   image: StaticImageData | string;
@@ -25,9 +35,5 @@ export type ICardSoluctions = {
 
 export type ICategories = {
   image: string | StaticImageData;
-  name: string;
-};
-
-export type IDataNav = {
   name: string;
 };
