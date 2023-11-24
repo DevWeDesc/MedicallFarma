@@ -276,14 +276,14 @@ export const CategoriesData: ICategories[] = [
 ];
 
 export const NavData: IDataNav[] = [
-  { name: "Inicio", href: "#Init" },
-  { name: "Sobre", href: "#About" },
-  { name: "Produtos em Destaque", href: "#HighlightsProduct" },
-  { name: "Soluções do Momento", href: "#Soluctions" },
-  { name: "Categorias", href: "#Categories" },
-  { name: "Fornecedores", href: "#Suppliers" },
-  { name: "Produtos Recomendados", href: "#productRecomended" },
-  { name: "Contatos", href: "#Contact" },
+  { name: "Inicio", href: "/#Init" },
+  { name: "Sobre", href: "/#About" },
+  { name: "Produtos em Destaque", href: "/#HighlightsProduct" },
+  { name: "Soluções do Momento", href: "/#Soluctions" },
+  { name: "Categorias", href: "/#Categories" },
+  { name: "Fornecedores", href: "/#Suppliers" },
+  { name: "Produtos Recomendados", href: "/#productRecomended" },
+  { name: "Contatos", href: "/#Contact" },
 ];
 
 export const SuppliersImageData: StaticImageData[] = [
