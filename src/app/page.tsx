@@ -24,9 +24,9 @@ export default function Home() {
       <section id="Soluctions">
         <SolutionsMoment />
       </section>
-      <section id="Categories">
+      {/* <section id="Categories">
         <SearchCategory />
-      </section>
+      </section> */}
       <Separator />
       <section id="Suppliers">
         <Suppliers />
