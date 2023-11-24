@@ -33,29 +33,31 @@ export default function Page({ params }: { params: { category: string } }) {
 
   return (
     <div>
-      <div className="pt-20 relative bg-grayDark text-white">
-        <Image alt="" className="-z-10" src={ImagePage} />
+      <div className="pt-14 lg:pt-20 relative bg-grayDark text-white">
+        <Image alt="" className="-z-10 w-full" src={ImagePage} />
         <Link
           href="/"
-          className="absolute top-[20%] px-4 text-xs -translate-y-3/4"
+          className="absolute top-[20%] px-4 text-xs -translate-y-3/4 lg:px-28 lg:text-sm"
         >
           Voltar para Home
         </Link>
-        <div className="absolute top-2/4 -translate-y-2/4 px-5 grid gap-4 grid-cols-3">
+        <div className="absolute top-2/4 -translate-y-2/4 px-5 grid gap-4 grid-cols-3 lg:px-28 lg:gap-20">
           <div className="h-full flex flex-col justify-center font-medium">
-            <h2 className="text-lg">{category}</h2>
-            <p className="text-xs">Avanços e Desafios na Indústria</p>
+            <h2 className="text-lg lg:text-5xl">{category}</h2>
+            <p className="text-xs lg:text-3xl">
+              Avanços e Desafios na Indústria
+            </p>
           </div>
-          <p className="col-span-2 text-[10px]">
+          <p className="col-span-2 text-[10px] lg:text-xl">
             A indústria de medicamentos desempenha um papel vital na promoção da
             saúde global, buscando constantemente desenvolver terapias
             inovadoras para tratar e prevenir diversas condições médicas.
           </p>
         </div>
       </div>
-      <div className="py-16 px-5 flex flex-col gap-3 ">
-        <h2 className="font-bold text-2xl">{category}</h2>
-        <div className="grid grid-cols-3 gap-4">
+      <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12">
+        <h2 className="font-bold text-2xl lg:text-5xl">{category}</h2>
+        <div className="grid grid-cols-3 gap-4 lg:grid-cols-5 lg:gap-8">
           {ProductsCategory.map((item) => (
             <Link href={`/detailsProduct/${item.id}`} key={item.id}>
               <CardProduct
