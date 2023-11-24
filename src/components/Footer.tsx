@@ -1,10 +1,29 @@
 import Image from "next/image";
 import React from "react";
 import Logo from "../../public/Logo.png";
-import { NavData } from "../../data/data";
+import { NavData, NavigationSocialMedia } from "../../data/data";
 import Link from "next/link";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { NavigationSocialMediaType } from "../../types/types";
 
 export const Footer = () => {
+  const SocialMediaIcon = ({ title, href }: NavigationSocialMediaType) => {
+    const styleIcon = "text-4xl";
+    if (title === "Instagram") {
+      return (
+        <Link target="_blank" href={href}>
+          <FaInstagram className={styleIcon} />
+        </Link>
+      );
+    } else {
+      return (
+        <Link target="_blank" href={href}>
+          <FaLinkedin className={styleIcon} />
+        </Link>
+      );
+    }
+  };
+
   return (
     <div
       id="Contact"
@@ -26,12 +45,14 @@ export const Footer = () => {
           <h3 className="text-xl font-bold text-center">
             Nossas Redes Sociais
           </h3>
-          <div className="flex gap-2">
-            {/* {NavData.map((item, index) => (
-            <p key={index} className="text-sm font-light">
-              {item.name}
-            </p>
-          ))} */}
+          <div className="flex gap-4 justify-center lg:gap-8">
+            {NavigationSocialMedia.map((item, index) => (
+              <SocialMediaIcon
+                key={index}
+                title={item.title}
+                href={item.href}
+              />
+            ))}
           </div>
         </div>
       </div>
