@@ -6,6 +6,11 @@ export type NavType = {
   handleMenuOpen: () => void;
 };
 
+export type NavigationSocialMediaType = {
+  title: string;
+  href: string;
+};
+
 export type IDataNav = {
   href: string;
   name: string;
