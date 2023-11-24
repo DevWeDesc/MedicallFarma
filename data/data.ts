@@ -13,6 +13,66 @@ import IconMaterial from "../public/IconMaterial.png";
 import IconDressing from "../public/IconDressings.png";
 import IconAntissepsia from "../public/IconAntissepsia.png";
 import IconMask from "../public/IconMask.png";
+import MedicallSuppliersImage from "../public/MedicallFarmaSuppliers/image 11.png";
+import MedicallSuppliersImage2 from "../public/MedicallFarmaSuppliers/image 12.png";
+import MedicallSuppliersImage5 from "../public/MedicallFarmaSuppliers/image 15.png";
+import MedicallSuppliersImage6 from "../public/MedicallFarmaSuppliers/image 16.png";
+import MedicallSuppliersImage7 from "../public/MedicallFarmaSuppliers/image 17.png";
+import MedicallSuppliersImage8 from "../public/MedicallFarmaSuppliers/image 18.png";
+import MedicallSuppliersImage9 from "../public/MedicallFarmaSuppliers/image 19.png";
+import MedicallSuppliersImage10 from "../public/MedicallFarmaSuppliers/image 20.png";
+import MedicallSuppliersImage1 from "../public/MedicallFarmaSuppliers/image 21.png";
+import MedicallSuppliersImage12 from "../public/MedicallFarmaSuppliers/image 22.png";
+import MedicallSuppliersImage13 from "../public/MedicallFarmaSuppliers/image 23.png";
+import MedicallSuppliersImage14 from "../public/MedicallFarmaSuppliers/image 24.png";
+import MedicallSuppliersImage15 from "../public/MedicallFarmaSuppliers/image 25.png";
+import MedicallSuppliersImage16 from "../public/MedicallFarmaSuppliers/image 26.png";
+import MedicallSuppliersImage17 from "../public/MedicallFarmaSuppliers/image 27.png";
+import MedicallSuppliersImage18 from "../public/MedicallFarmaSuppliers/image 28.png";
+import MedicallSuppliersImage19 from "../public/MedicallFarmaSuppliers/image 29.png";
+import MedicallSuppliersImage20 from "../public/MedicallFarmaSuppliers/image 30.png";
+import MedicallSuppliersImage21 from "../public/MedicallFarmaSuppliers/image 31.png";
+import MedicallSuppliersImage22 from "../public/MedicallFarmaSuppliers/image 32.png";
+import MedicallSuppliersImage23 from "../public/MedicallFarmaSuppliers/image 33.png";
+import MedicallSuppliersImage24 from "../public/MedicallFarmaSuppliers/image 34.png";
+import MedicallSuppliersImage25 from "../public/MedicallFarmaSuppliers/image 35.png";
+import MedicallSuppliersImage26 from "../public/MedicallFarmaSuppliers/image 36.png";
+import MedicallSuppliersImage27 from "../public/MedicallFarmaSuppliers/image 37.png";
+import MedicallSuppliersImage29 from "../public/MedicallFarmaSuppliers/image 39.png";
+import MedicallSuppliersImage30 from "../public/MedicallFarmaSuppliers/image 40.png";
+import MedicallSuppliersImage31 from "../public/MedicallFarmaSuppliers/image 41.png";
+import MedicallSuppliersImage32 from "../public/MedicallFarmaSuppliers/image 42.png";
+import MedicallSuppliersImage33 from "../public/MedicallFarmaSuppliers/image 43.png";
+import MedicallSuppliersImage34 from "../public/MedicallFarmaSuppliers/image 44.png";
+import MedicallSuppliersImage35 from "../public/MedicallFarmaSuppliers/image 45.png";
+import MedicallSuppliersImage36 from "../public/MedicallFarmaSuppliers/image 46.png";
+import MedicallSuppliersImage37 from "../public/MedicallFarmaSuppliers/image 47.png";
+import MedicallSuppliersImage38 from "../public/MedicallFarmaSuppliers/image 48.png";
+import MedicallSuppliersImage40 from "../public/MedicallFarmaSuppliers/image 50.png";
+import MedicallSuppliersImage41 from "../public/MedicallFarmaSuppliers/image 51.png";
+import MedicallSuppliersImage42 from "../public/MedicallFarmaSuppliers/image 52.png";
+import MedicallSuppliersImage43 from "../public/MedicallFarmaSuppliers/image 53.png";
+import MedicallSuppliersImage44 from "../public/MedicallFarmaSuppliers/image 54.png";
+import MedicallSuppliersImage45 from "../public/MedicallFarmaSuppliers/image 55.png";
+import MedicallSuppliersImage46 from "../public/MedicallFarmaSuppliers/image 56.png";
+import MedicallSuppliersImage47 from "../public/MedicallFarmaSuppliers/image 57.png";
+import MedicallSuppliersImage48 from "../public/MedicallFarmaSuppliers/image 58.png";
+import MedicallSuppliersImage49 from "../public/MedicallFarmaSuppliers/image 59.png";
+import MedicallSuppliersImage50 from "../public/MedicallFarmaSuppliers/image 60.png";
+import MedicallSuppliersImage51 from "../public/MedicallFarmaSuppliers/image 61.png";
+import MedicallSuppliersImage52 from "../public/MedicallFarmaSuppliers/image 62.png";
+import MedicallSuppliersImage53 from "../public/MedicallFarmaSuppliers/image 63.png";
+import MedicallSuppliersImage54 from "../public/MedicallFarmaSuppliers/image 64.png";
+import MedicallSuppliersImage55 from "../public/MedicallFarmaSuppliers/image 65.png";
+import MedicallSuppliersImage56 from "../public/MedicallFarmaSuppliers/image 66.png";
+import MedicallSuppliersImage57 from "../public/MedicallFarmaSuppliers/image 67.png";
+import MedicallSuppliersImage58 from "../public/MedicallFarmaSuppliers/image 68.png";
+import MedicallSuppliersImage59 from "../public/MedicallFarmaSuppliers/image 69.png";
+import MedicallSuppliersImage60 from "../public/MedicallFarmaSuppliers/image 70.png";
+import MedicallSuppliersImage61 from "../public/MedicallFarmaSuppliers/image 71.png";
+import MedicallSuppliersImage62 from "../public/MedicallFarmaSuppliers/image 72.png";
+import MedicallSuppliersImage63 from "../public/MedicallFarmaSuppliers/image 73.png";
+import { StaticImageData } from "next/image";
 
 export const HighlightsProductsData: IProductsData[] = [
   {
@@ -224,4 +284,66 @@ export const NavData: IDataNav[] = [
   { name: "Fornecedores", href: "#Suppliers" },
   { name: "Produtos Recomendados", href: "#productRecomended" },
   { name: "Contatos", href: "#Contact" },
+];
+
+export const SuppliersImageData: StaticImageData[] = [
+  MedicallSuppliersImage,
+  MedicallSuppliersImage2,
+  MedicallSuppliersImage5,
+  MedicallSuppliersImage6,
+  MedicallSuppliersImage7,
+  MedicallSuppliersImage8,
+  MedicallSuppliersImage9,
+  MedicallSuppliersImage10,
+  MedicallSuppliersImage1,
+  MedicallSuppliersImage12,
+  MedicallSuppliersImage13,
+  MedicallSuppliersImage14,
+  MedicallSuppliersImage15,
+  MedicallSuppliersImage16,
+  MedicallSuppliersImage17,
+  MedicallSuppliersImage18,
+  MedicallSuppliersImage19,
+  MedicallSuppliersImage20,
+  MedicallSuppliersImage21,
+  MedicallSuppliersImage22,
+  MedicallSuppliersImage23,
+  MedicallSuppliersImage24,
+  MedicallSuppliersImage25,
+  MedicallSuppliersImage26,
+  MedicallSuppliersImage27,
+  MedicallSuppliersImage29,
+  MedicallSuppliersImage30,
+  MedicallSuppliersImage31,
+  MedicallSuppliersImage32,
+  MedicallSuppliersImage33,
+  MedicallSuppliersImage34,
+  MedicallSuppliersImage35,
+  MedicallSuppliersImage36,
+  MedicallSuppliersImage37,
+  MedicallSuppliersImage38,
+  MedicallSuppliersImage40,
+  MedicallSuppliersImage41,
+  MedicallSuppliersImage42,
+  MedicallSuppliersImage43,
+  MedicallSuppliersImage44,
+  MedicallSuppliersImage45,
+  MedicallSuppliersImage46,
+  MedicallSuppliersImage47,
+  MedicallSuppliersImage48,
+  MedicallSuppliersImage49,
+  MedicallSuppliersImage50,
+  MedicallSuppliersImage51,
+  MedicallSuppliersImage52,
+  MedicallSuppliersImage53,
+  MedicallSuppliersImage54,
+  MedicallSuppliersImage55,
+  MedicallSuppliersImage56,
+  MedicallSuppliersImage57,
+  MedicallSuppliersImage58,
+  MedicallSuppliersImage59,
+  MedicallSuppliersImage60,
+  MedicallSuppliersImage61,
+  MedicallSuppliersImage62,
+  MedicallSuppliersImage63,
 ];
