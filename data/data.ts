@@ -3,6 +3,7 @@ import {
   ICategories,
   IDataNav,
   IProductsData,
+  NavigationSocialMediaType,
 } from "../types/types";
 import Product1 from "../public/ImageProduct1.png";
 import Product2 from "../public/ImageProduct2.png";
@@ -346,4 +347,12 @@ export const SuppliersImageData: StaticImageData[] = [
   MedicallSuppliersImage61,
   MedicallSuppliersImage62,
   MedicallSuppliersImage63,
+];
+
+export const NavigationSocialMedia: NavigationSocialMediaType[] = [
+  { title: "Instagram", href: "https://www.instagram.com/medicallfarmasp/" },
+  {
+    title: "Linkedin",
+    href: "https://www.linkedin.com/company/medicall-farma-distribuidora-de-produtos-e-servi%C3%A7os-para-a-sa%C3%BAde/?originalSubdomain=br",
+  },
 ];
