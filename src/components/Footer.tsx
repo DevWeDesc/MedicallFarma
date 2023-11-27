@@ -27,7 +27,7 @@ export const Footer = () => {
   return (
     <div
       id="Contact"
-      className="bg-grayDark py-16 flex flex-col items-center gap-16 text-white lg:py-28 lg:px-28 lg:gap-20"
+      className="bg-grayDark py-16 flex flex-col items-center gap-16 text-white lg:py-28 lg:px-28 lg:gap-20 2xl:px-80"
     >
       <div className="flex flex-col items-center gap-16 lg:flex-row w-full lg:justify-between lg:items-start">
         <Image alt="" className="lg:h-[60px] w-auto" src={Logo} />

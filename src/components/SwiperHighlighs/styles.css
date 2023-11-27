@@ -5,7 +5,7 @@
 
 .swiper-slide {
   position: relative;
-  margin-top: 40px;
+  margin-top: 45px;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -31,7 +31,7 @@
 .swiper-button-next {
   position: absolute;
   border: 1px solid var(--swiper-text-color-navigation);
-  top: 20px;
+  top: 25px;
   width: var(--swiper-navigation-size);
   height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size) / 2));

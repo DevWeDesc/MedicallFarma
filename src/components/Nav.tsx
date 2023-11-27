@@ -8,7 +8,7 @@ export const Nav = ({ menuOpen, handleMenuOpen }: NavType) => {
     <div
       className={`text-white h-screen top-12 mt-1 right-0 fixed flex flex-col gap-6 ${
         menuOpen
-          ? " bg-grayDark z-20 w-auto transition-all h-screen px-10 py-4 "
+          ? " bg-grayDark z-20 w-auto transition-all h-screen px-10 py-4 2xl:px-24"
           : "w-0 transition-all opacity-0"
       }`}
     >

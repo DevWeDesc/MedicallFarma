@@ -37,11 +37,11 @@ export default function Page({ params }: { params: { category: string } }) {
         <Image alt="" className="-z-10 w-full" src={ImagePage} />
         <Link
           href="/"
-          className="absolute top-[20%] px-4 text-xs -translate-y-3/4 lg:px-28 lg:text-sm"
+          className="absolute top-[20%] px-4 text-xs -translate-y-3/4 lg:px-28 lg:text-sm 2xl:px-80"
         >
           Voltar para Home
         </Link>
-        <div className="absolute top-2/4 -translate-y-2/4 px-5 grid gap-4 grid-cols-3 lg:px-28 lg:gap-20">
+        <div className="absolute top-2/4 -translate-y-2/4 px-5 grid gap-4 grid-cols-3 lg:px-28 lg:gap-20 2xl:px-80">
           <div className="h-full flex flex-col justify-center font-medium">
             <h2 className="text-lg lg:text-5xl">{category}</h2>
             <p className="text-xs lg:text-3xl">
@@ -55,7 +55,7 @@ export default function Page({ params }: { params: { category: string } }) {
           </p>
         </div>
       </div>
-      <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12">
+      <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12 2xl:px-80">
         <h2 className="font-bold text-2xl lg:text-5xl">{category}</h2>
         <div className="grid grid-cols-3 gap-4 lg:grid-cols-5 lg:gap-8">
           {ProductsCategory.map((item) => (

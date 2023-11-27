@@ -28,7 +28,7 @@ export default function SwiperSuppliers() {
         className="mySwiper cursor-grab active:cursor-grabbing"
       >
         {SuppliersImageData.map((item, index) => (
-          <SwiperSlide className="px-5 lg:px-10" key={index}>
+          <SwiperSlide className="px-5 lg:px-10 2xl:px-24" key={index}>
             <Image alt="" src={item} />
           </SwiperSlide>
         ))}

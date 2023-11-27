@@ -21,7 +21,7 @@ export const Header = () => {
 
   return (
     <div
-      className={`xl:px-28 fixed z-30 w-full flex items-center justify-between gap-4 bg-grayDark px-2  ${
+      className={`2xl:px-80 xl:px-28 fixed z-30 w-full flex items-center justify-between gap-4 bg-grayDark px-2  ${
         searchOpen ? "py-3" : "py-4"
       }`}
     >
@@ -42,7 +42,10 @@ export const Header = () => {
             className="text-2xl text-white xl:hidden"
           />
         )}
-        <div onClick={handleMenuOpen} className="w-6 flex flex-col gap-[6px] ">
+        <div
+          onClick={handleMenuOpen}
+          className="w-6 flex flex-col gap-[6px] cursor-pointer"
+        >
           <div
             className={`h-[1.5px] bg-white transition-all ${
               menuOpen ? "rotate-45 top-1 relative" : ""

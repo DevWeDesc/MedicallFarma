@@ -6,7 +6,7 @@ export const Aboult = () => {
   return (
     <div className="flex flex-col-reverse py-12 px-5 gap-5 lg:pt-0 lg:px-0 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-0">
       <Image alt="" className="lg:min-h-[30rem] lg:w-full" src={ImagesGrid} />
-      <div className="flex flex-col gap-3 lg:py-8 lg:pr-16 lg:gap-10">
+      <div className="flex flex-col gap-3 lg:py-8 lg:pr-16 lg:gap-10 2xl:pr-80">
         <div className="flex flex-col lg:gap-5">
           <h2 className="text-xl font-bold lg:text-5xl">
             Sobre a Medicall Farma
