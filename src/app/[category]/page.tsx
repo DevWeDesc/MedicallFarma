@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { ProductsRecomendedData } from "../../../data/data";
+import { CardSoluctionData, ProductsRecomendedData } from "../../../data/data";
 import { IProductsData } from "../../../types/types";
 import ImageDietaEnteral from "../../../public/ImageDietasEnterais.png";
 import ImageAcessories from "../../../public/ImageAcessoriesMedic.png";
@@ -14,6 +14,7 @@ export default function Page({ params }: { params: { category: string } }) {
   category = category.includes("%20") ? category.replace("%20", " ") : category;
   const [ProductsCategory, setProductsCategory] = useState<IProductsData[]>([]);
   const [ImagePage, setImagePage] = useState<StaticImageData | string>("");
+  const [filterSubCategorie, setFilterSubCategorie] = useState<string[]>([]);
 
   useEffect(() => {
     let productsFilteredCategory: IProductsData[] =
@@ -22,14 +23,32 @@ export default function Page({ params }: { params: { category: string } }) {
       );
     setProductsCategory(productsFilteredCategory);
 
+    // if (filterSubCategorie.length > 0) {
+    //   productsFilteredCategory = productsFilteredCategory.filter((item) => {
+    //     filterSubCategorie.map((filterSub) => {
+    //       return item.categories?.includes(filterSub);
+    //     });
+    //   });
+    //   console.log(productsFilteredCategory);
+    //   setProductsCategory(productsFilteredCategory);
+    // }
+
     category === "Medicamentos"
       ? setImagePage(ImageMedicaments)
       : category === "Dietas Enterais"
       ? setImagePage(ImageDietaEnteral)
       : setImagePage(ImageAcessories);
-  }, [category, ImagePage]);
+  }, [category, ImagePage, filterSubCategorie]);
 
   console.log(ProductsCategory);
+
+  const handleFilterSubCategorie = (item: string) => {
+    !filterSubCategorie.includes(item) &&
+      item &&
+      setFilterSubCategorie((prev) => [...prev, item]);
+    console.log(filterSubCategorie);
+    console.log(ProductsCategory);
+  };
 
   return (
     <div>
@@ -56,6 +75,25 @@ export default function Page({ params }: { params: { category: string } }) {
         </div>
       </div>
       <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12 2xl:px-80">
+        {category === "Medicamentos" && (
+          <>
+            {CardSoluctionData.map((item, index) => (
+              <>
+                {item.subCategories?.map((item) => (
+                  <button
+                    className="py-10 hidden"
+                    onClick={() => {
+                      handleFilterSubCategorie(item);
+                    }}
+                    key={index}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </>
+            ))}
+          </>
+        )}
         <h2 className="font-bold text-2xl lg:text-5xl">{category}</h2>
         <div className="grid grid-cols-3 gap-4 lg:grid-cols-5 lg:gap-8">
           {ProductsCategory.map((item) => (
