@@ -34,11 +34,13 @@ export type IProductsData = {
 
 export type ICardSoluctions = {
   title: string;
-  image: StaticImageData | string;
+  // image: StaticImageData | string;
   href: string;
+  subCategories?: string[];
 };
 
 export type ICategories = {
   image: string | StaticImageData;
   name: string;
+  subCategories: string[];
 };
