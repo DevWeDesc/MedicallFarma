@@ -9,7 +9,7 @@ import {
   RiStethoscopeLine,
 } from "react-icons/ri";
 
-export const CardSolutions = ({ image, title, href }: ICardSoluctions) => {
+export const CardSolutions = ({ title, href }: ICardSoluctions) => {
   const [bgColorCard, setBgColorCard] = useState("");
 
   const IconCardSoluction = () => {

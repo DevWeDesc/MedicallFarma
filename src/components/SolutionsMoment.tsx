@@ -8,12 +8,7 @@ export default function SolutionsMoment() {
       <h2 className="text-2xl font-bold lg:text-5xl">Soluções do Momento!</h2>
       <div className="w-full grid grid-cols-3 gap-1 lg:gap-3">
         {CardSoluctionData.map((item) => (
-          <CardSolutions
-            href={item.href}
-            key={item.title}
-            // image={item.image}
-            title={item.title}
-          />
+          <CardSolutions href={item.href} key={item.title} title={item.title} />
         ))}
       </div>
     </div>

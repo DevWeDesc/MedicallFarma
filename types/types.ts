@@ -34,7 +34,6 @@ export type IProductsData = {
 
 export type ICardSoluctions = {
   title: string;
-  image: StaticImageData | string;
   href: string;
   subCategories?: string[];
 };
