@@ -74,6 +74,7 @@ import MedicallSuppliersImage61 from "../public/MedicallFarmaSuppliers/image 71.
 import MedicallSuppliersImage62 from "../public/MedicallFarmaSuppliers/image 72.png";
 import MedicallSuppliersImage63 from "../public/MedicallFarmaSuppliers/image 73.png";
 import { StaticImageData } from "next/image";
+import ImageHigiene from "../public/imageHigiene.png";
 
 export const HighlightsProductsData: IProductsData[] = [
   {
@@ -236,7 +237,7 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Materiais Medicos", "Medicamentos", "Medicamento Genérico"],
+    categories: ["Materiais Medicos", "Medicamentos"],
   },
   {
     id: 6,
@@ -245,35 +246,62 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Medicamentos"],
   },
 ];
 
 export const CardSoluctionData: ICardSoluctions[] = [
   {
-    image: IconMedicine,
+    // image: IconMedicine,
     title: "Medicamentos",
     href: "/Medicamentos",
+    subCategories: ["Medicamento Genérico", "Materiais Medicos"],
   },
   {
-    image: IconDiet,
+    // image: IconDiet,
     title: "Dietas Enterais",
     href: "/Dietas Enterais",
+    subCategories: [],
   },
   {
-    image: IconMaterial,
+    // image: IconMaterial,
     title: "Materiais Médicos",
     href: "/Materiais Medicos",
+    subCategories: [],
   },
 ];
 
 export const CategoriesData: ICategories[] = [
-  { image: IconDressing, name: "Antissepsia e Higiene" },
-  { image: IconMask, name: "Curativos" },
-  { image: IconAntissepsia, name: "Soluções Descartáveis" },
-  // { image: "", name: "Endoscopia" },
-  // { image: "", name: "Nutrição e Dietas" },
-  // { image: "", name: "Nutrição e Dietas" },
+  {
+    image: ImageHigiene,
+    name: "Antissepsia e Higiene",
+    subCategories: [
+      "Sabonetes",
+      "Desifetantes",
+      "Detergente",
+      "Linha Ecológica",
+    ],
+  },
+  {
+    image: ImageHigiene,
+    name: "Curativos",
+    subCategories: [
+      "Sabonetes",
+      "Desifetantes",
+      "Detergente",
+      "Linha Ecológica",
+    ],
+  },
+  {
+    image: ImageHigiene,
+    name: "Soluções Descartáveis",
+    subCategories: [
+      "Sabonetes",
+      "Desifetantes",
+      "Detergente",
+      "Linha Ecológica",
+    ],
+  },
 ];
 
 export const NavData: IDataNav[] = [
