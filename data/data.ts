@@ -252,19 +252,19 @@ export const ProductsRecomendedData: IProductsData[] = [
 
 export const CardSoluctionData: ICardSoluctions[] = [
   {
-    // image: IconMedicine,
+    image: IconMedicine,
     title: "Medicamentos",
     href: "/Medicamentos",
     subCategories: ["Medicamento Genérico", "Materiais Medicos"],
   },
   {
-    // image: IconDiet,
+    image: IconDiet,
     title: "Dietas Enterais",
     href: "/Dietas Enterais",
     subCategories: [],
   },
   {
-    // image: IconMaterial,
+    image: IconMaterial,
     title: "Materiais Médicos",
     href: "/Materiais Medicos",
     subCategories: [],
