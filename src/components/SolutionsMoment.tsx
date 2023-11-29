@@ -11,7 +11,7 @@ export default function SolutionsMoment() {
           <CardSolutions
             href={item.href}
             key={item.title}
-            image={item.image}
+            // image={item.image}
             title={item.title}
           />
         ))}
