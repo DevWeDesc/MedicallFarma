@@ -94,19 +94,21 @@ export default function Page({ params }: { params: { category: string } }) {
             ))}
           </>
         )}
-        <h2 className="font-bold text-2xl lg:text-5xl">{category}</h2>
-        <div className="grid grid-cols-3 gap-4 lg:grid-cols-5 lg:gap-8">
-          {ProductsCategory.map((item) => (
-            <Link href={`/detailsProduct/${item.id}`} key={item.id}>
-              <CardProduct
-                content={item.content}
-                image={item.image}
-                name={item.name}
-                id={item.id}
-                supplier={item.supplier}
-              />
-            </Link>
-          ))}
+        <div className="2xl:max-w-7xl 2xl:m-auto flex flex-col gap-10">
+          <h2 className="font-bold text-2xl lg:text-5xl">{category}</h2>
+          <div className="grid grid-cols-3 gap-4 lg:grid-cols-5 lg:gap-8  ">
+            {ProductsCategory.map((item) => (
+              <Link href={`/detailsProduct/${item.id}`} key={item.id}>
+                <CardProduct
+                  content={item.content}
+                  image={item.image}
+                  name={item.name}
+                  id={item.id}
+                  supplier={item.supplier}
+                />
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </div>
