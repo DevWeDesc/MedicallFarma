@@ -23,6 +23,7 @@ export default function SwiperHighlighs() {
         modules={[Navigation]}
         slidesPerView={slidesPerView}
         spaceBetween={slidesPerView === 5 ? 40 : 20}
+        style={{ padding: "10px" }}
         className="mySwiper"
       >
         {HighlightsProductsData.map((item) => (
