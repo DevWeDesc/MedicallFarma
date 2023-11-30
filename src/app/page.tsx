@@ -8,26 +8,20 @@ import { Separator } from "@/components/Separator";
 import SolutionsMoment from "@/components/SolutionsMoment";
 import { Suppliers } from "@/components/Suppliers";
 import { CategoriesData } from "../../data/data";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <section className="hidden lg:flex lg:pt-28 lg:gap-20 lg:justify-center bg-grayDark border border-grayLight">
-        {CategoriesData.map((item, index) => (
-          <Combobox
-            ImageProp={item.image}
-            key={index}
-            Category={item.name}
-            SubCategories={item.subCategories}
-          />
-        ))}
+      <section>
+        <Combobox />
       </section>
       <section id="Init">
         <Banner />
       </section>
-      <section id="About">
+      {/* <section id="About">
         <Aboult />
-      </section>
+      </section> */}
       <section id="HighlightsProduct">
         <HighlightsProducts />
       </section>
@@ -39,11 +33,17 @@ export default function Home() {
       </section> */}
       <Separator />
       <section id="Suppliers">
-        <Suppliers />
+        <Suppliers title="Nossos Fornecedores" />
       </section>
       <Separator />
       <section id="productRecomended">
         <ProductsRecommended />
+      </section>
+      <section className="flex flex-col justify-center items-center py-9 gap-8 bg-grayLight text-white">
+        <p>Conhça mais sobre a MEDICALL FARMA</p>
+        <Link className="w-full text-center" href="about">
+          Ir para About
+        </Link>
       </section>
     </main>
   );
