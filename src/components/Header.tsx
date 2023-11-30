@@ -21,21 +21,24 @@ export const Header = () => {
 
   return (
     <div
-      className={`2xl:px-80 xl:px-28 fixed z-30 w-full flex items-center justify-between gap-4 bg-grayDark px-2  ${
+      className={`xl:justify-items-center xl:grid xl:grid-cols-12 2xl:px-64 fixed z-30 w-full flex items-center justify-between gap-4 bg-grayDark px-2  ${
         searchOpen ? "py-3" : "py-4"
       }`}
     >
-      <Link href="/">
+      <Link href="/" className="col-span-2">
         <Image alt="" src={Logo} className="h-5 w-auto xl:h-14" />
       </Link>
 
       <div
-        className={`w-[60%] ${searchOpen ? "col-span-3" : "hidden xl:block"}`}
+        // className={`w-[60%] ${searchOpen ? "col-span-3" : "hidden xl:block"}`}
+        className={`w-[60%] xl:w-[100%] ${
+          searchOpen ? "col-span-3" : "hidden xl:block xl:col-span-8"
+        }`}
       >
         <SearchBar handleSearchOpen={handleSearchOpen} />
       </div>
 
-      <div className="flex items-center gap-5">
+      <div className="flex items-center gap-5 xl:col-span-2 xl:col-start-12">
         {!searchOpen && (
           <IoIosSearch
             onClick={() => setSearchOpen(true)}
