@@ -1,3 +1,4 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { Url } from "next/dist/shared/lib/router/router";
 import { StaticImageData } from "next/image";
 
@@ -39,7 +40,12 @@ export type ICardSoluctions = {
 };
 
 export type ICategories = {
-  image: string | StaticImageData;
+  image: string | StaticImageData | StaticImport;
   name: string;
   subCategories: string[];
+};
+
+export type ICardAbout = {
+  title: string;
+  content: string | string[];
 };

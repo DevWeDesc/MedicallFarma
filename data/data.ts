@@ -1,4 +1,5 @@
 import {
+  ICardAbout,
   ICardSoluctions,
   ICategories,
   IDataNav,
@@ -74,7 +75,9 @@ import MedicallSuppliersImage61 from "../public/MedicallFarmaSuppliers/image 71.
 import MedicallSuppliersImage62 from "../public/MedicallFarmaSuppliers/image 72.png";
 import MedicallSuppliersImage63 from "../public/MedicallFarmaSuppliers/image 73.png";
 import { StaticImageData } from "next/image";
-import ImageHigiene from "../public/imageHigiene.png";
+import ImageHigiene from "../public/image 98.png";
+import ImageCurativo from "../public/image 97.png";
+import ImageSeringa from "../public/image 96.png";
 
 export const HighlightsProductsData: IProductsData[] = [
   {
@@ -280,7 +283,7 @@ export const CategoriesData: ICategories[] = [
     ],
   },
   {
-    image: ImageHigiene,
+    image: ImageCurativo,
     name: "Curativos",
     subCategories: [
       "Sabonetes",
@@ -290,7 +293,7 @@ export const CategoriesData: ICategories[] = [
     ],
   },
   {
-    image: ImageHigiene,
+    image: ImageSeringa,
     name: "Soluções Descartáveis",
     subCategories: [
       "Sabonetes",
@@ -379,5 +382,27 @@ export const NavigationSocialMedia: NavigationSocialMediaType[] = [
   {
     title: "Linkedin",
     href: "https://www.linkedin.com/company/medicall-farma-distribuidora-de-produtos-e-servi%C3%A7os-para-a-sa%C3%BAde/?originalSubdomain=br",
+  },
+];
+
+export const CardAboutData: ICardAbout[] = [
+  {
+    title: "Nossa Missão",
+    content:
+      "A Medicall Farma tem como missão contribuir com a melhoria da vida e saúde das pessoas, por meio de fornecimento de materiais médicos e medicamentos hospitalares de alta qualidade às instituições de saúde privadas e públicas do estado de São Paulo.",
+  },
+  {
+    title: "Nossa Visão",
+    content:
+      "Ser reconhecidamente a melhor empresa de distribuição de materiais médicos a medicamentos hospitalares às instituições de saúde privadas e públicas, buscando aprimoramento continuo de nossas atividades com ética e responsabilidade.",
+  },
+  {
+    title: "Nossas Categorias",
+    content: [
+      "Medicamentos Hospitalares",
+      "Dietas Enterais e Parenterais",
+      "Materiais Médicos e Hospitalares",
+      "Equipamentos Médicos e Odontológicos",
+    ],
   },
 ];
