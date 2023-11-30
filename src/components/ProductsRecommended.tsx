@@ -5,7 +5,7 @@ import { CardProduct } from "./Cards/CardProduct";
 
 export const ProductsRecommended = () => {
   return (
-    <div className="py-12 px-5 flex flex-col gap-5 lg:py-28 lg:px-28 lg:gap-14 2xl:px-80">
+    <div className="py-12 px-5 flex flex-col gap-5 lg:py-28 lg:px-28 lg:gap-14 2xl:px-0 2xl:max-w-7xl 2xl:m-auto">
       <h2 className="text-xl font-bold lg:text-5xl">
         Produtos Recomendados para Você!
       </h2>
