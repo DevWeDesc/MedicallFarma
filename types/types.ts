@@ -42,7 +42,11 @@ export type ICardSoluctions = {
 export type ICategories = {
   image: string | StaticImageData | StaticImport;
   name: string;
-  subCategories: string[];
+  subCategories: ISubCategories[];
+};
+
+export type ISubCategories = {
+  title: string;
 };
 
 export type ICardAbout = {

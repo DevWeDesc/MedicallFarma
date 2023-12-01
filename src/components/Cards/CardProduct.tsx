@@ -22,7 +22,7 @@ export const CardProduct = ({
 
   return (
     <div
-      className={`flex hover:scale-105 transition-all flex-col text-left ${
+      className={`flex flex-col text-left ${
         size === "large"
           ? "gap-4 items-center lg:grid lg:grid-cols-2 lg:justify-items-center"
           : "gap-2"

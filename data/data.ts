@@ -231,7 +231,7 @@ export const ProductsRecomendedData: IProductsData[] = [
     content:
       "Este medicamento contém uma penicilina chamada amoxicilina como ingrediente ativo. A amoxicilina pertence ao grupo dos antibióticos penicilânicos. O medicamento é usado no tratamento de uma gama de infecções causadas por bactérias, que podem manifestar-se nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), no trato urinário e genital, na pele e nas mucosas. A amoxicilina atua destruindo as bactérias que causam essas infecções.",
     supplier: "Fornecido por Nativita",
-    categories: ["Medicamentos", "Medicamento Genérico"],
+    categories: ["Medicamentos", "Medicamento Genérico", "Sabonetes"],
   },
   {
     id: 5,
@@ -276,30 +276,30 @@ export const CategoriesData: ICategories[] = [
     image: ImageHigiene,
     name: "Antissepsia e Higiene",
     subCategories: [
-      "Sabonetes",
-      "Desifetantes",
-      "Detergente",
-      "Linha Ecológica",
+      { title: "Sabonetes" },
+      { title: "Desifetantes" },
+      { title: "Detergente" },
+      { title: "Linha Ecológica" },
     ],
   },
   {
     image: ImageCurativo,
     name: "Curativos",
     subCategories: [
-      "Sabonetes",
-      "Desifetantes",
-      "Detergente",
-      "Linha Ecológica",
+      { title: "Sabonetes" },
+      { title: "Desifetantes" },
+      { title: "Detergente" },
+      { title: "Linha Ecológica" },
     ],
   },
   {
     image: ImageSeringa,
     name: "Soluções Descartáveis",
     subCategories: [
-      "Sabonetes",
-      "Desifetantes",
-      "Detergente",
-      "Linha Ecológica",
+      { title: "Sabonetes" },
+      { title: "Desifetantes" },
+      { title: "Detergente" },
+      { title: "Linha Ecológica" },
     ],
   },
 ];
