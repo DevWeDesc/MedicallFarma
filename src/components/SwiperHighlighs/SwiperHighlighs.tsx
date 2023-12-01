@@ -28,7 +28,10 @@ export default function SwiperHighlighs() {
       >
         {HighlightsProductsData.map((item) => (
           <SwiperSlide key={item.id}>
-            <Link href={`/detailsProduct/${item.id}`}>
+            <Link
+              className="hover:scale-105 transition-all"
+              href={`/detailsProduct/${item.id}`}
+            >
               <CardProduct
                 id={item.id}
                 content={item.content}

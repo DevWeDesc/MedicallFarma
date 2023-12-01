@@ -47,27 +47,33 @@ export const Combobox = () => {
           setCategorySelected(categorySelected);
         }}
       >
-        {comboOpen && categorySelected && (
-          <div className="absolute bg-grayLight py-10 px-6 rounded-md grid grid-cols-2 text-white">
-            <div className="flex flex-col gap-6 ">
-              {categorySelected?.subCategories.map((item, index) => (
-                <Link
-                  href="/Medicamentos"
-                  key={index}
-                  className="flex items-center gap-3 opacity-90 hover:opacity-100 hover:font-semibold transition-all"
-                >
-                  <CiPlay1 />
-                  <p>{item}</p>
-                </Link>
-              ))}
-            </div>
+        <div
+          className={`${
+            comboOpen && categorySelected
+              ? "absolute bg-grayLight py-10 px-6 rounded-md grid grid-cols-2 text-white transition-all"
+              : "absolute h-0 transition-all overflow-hidden"
+          }`}
+        >
+          <div className="flex flex-col gap-6 ">
+            {categorySelected?.subCategories.map((item, index) => (
+              <Link
+                href={`${categorySelected.name}/${item.title}`}
+                key={index}
+                className="flex items-center gap-3 opacity-90 hover:opacity-100 hover:font-semibold transition-all"
+              >
+                <CiPlay1 />
+                <p>{item.title}</p>
+              </Link>
+            ))}
+          </div>
+          {categorySelected && (
             <Image
               alt=""
               className="max-w-sm"
               src={categorySelected?.image}
             ></Image>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

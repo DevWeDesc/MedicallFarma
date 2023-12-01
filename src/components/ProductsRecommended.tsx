@@ -11,7 +11,11 @@ export const ProductsRecommended = () => {
       </h2>
       <div className="grid grid-cols-3 gap-3 lg:grid-cols-5 lg:gap-6">
         {ProductsRecomendedData.map((item) => (
-          <Link href={`/detailsProduct/${item.id}`} key={item.id}>
+          <Link
+            href={`/detailsProduct/${item.id}`}
+            className="hover:scale-105 transition-all"
+            key={item.id}
+          >
             <CardProduct
               key={item.id}
               id={item.id}

@@ -15,7 +15,7 @@ export default function Page() {
       <section>
         <Aboult />
       </section>
-      <section className="px-5 flex flex-col gap-5 py-16 xl:grid xl:grid-cols-3 xl:px-40 xl:gap-16 2xl:mx-32 2xl:px-96 2xl:justify-items-center">
+      <section className="px-5 flex flex-col gap-5 py-16 xl:grid xl:grid-cols-3 xl:px-40 xl:gap-16 2xl:mx-32 2xl:justify-items-center">
         {CardAboutData.map((item, index) => (
           <CardAbout key={index} title={item.title} content={item.content} />
         ))}
