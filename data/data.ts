@@ -79,6 +79,203 @@ import ImageHigiene from "../public/image 98.png";
 import ImageCurativo from "../public/image 97.png";
 import ImageSeringa from "../public/image 96.png";
 
+export const ListProductsData = [
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza e desinfecção",
+    product: "Desinfetante alto nível - Glutomax",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza e desinfecção",
+    product: "Desinfetante - CISA NANOPLUS",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza multiuso",
+    product: "Detergente desinfetante concentrado - PEROXY PLUS",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza em superfície fixa",
+    product: "Desifetante hospitalar - W80",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Desincrustante",
+    product: "Solução concentrada - CISA NOX",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza de instrumentais cirúrgicos",
+    product: "Detergente - CISA ZYMES ECO",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza instrumental cirúrgico e materiais hospitalares",
+    product: "Detergente multienzimático - ENZYMA 6",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza e desinfecção gorduras e celuloses",
+    product: "Detergente - CISA ZYMES ECO",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza para pré uso de materias  hospitalares",
+    product: "Detergente Enzimatico - PROACTION ANIOS",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory:
+      "Limpeza manual, mecânica, ultrassônica dos artigos cirúrgicos e endoscópios",
+    product: "Detergente Enziamatico - COSMODERNA ",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory:
+      "Cirúrgicos, canulados, odontológicos, inalatórios, endoscópios e laboratoriais",
+    product: "Detergente Enzimatico - RYOZIBE EX RIOQUIMICA ",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory:
+      "Limpeza de endoscópios, cateteres, odontologicos, pisos e vidrarias",
+    product: "Detergente Enzimatico - COSMODERMA",
+  },
+  {
+    category: "Saneantes",
+    subCatgegory: "Limpeza de aparelhos  óticas",
+    product: "Detergente multienzimático  - MEGAZYNE COSMODERNA",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Pressão negativa",
+    product: "Vivanotec Y - HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Pressão negativa",
+    product: "Portsystem/Conector - HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Pressão negativa",
+    product: "Kit para terapia P, M, G e ABDOMINAL - HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Pressão negativa",
+    product: "Reservatórios 300ML e 800ML - HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Pressão negativa",
+    product:
+      "Curativo revestido com gel de silicone - ATRAUMAN SILICONE / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Protetor contra fluidos corporais",
+    product: "Creme barreira - HIDRATANTE DERMILON COSMODERMA",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product: "Curativo impregnado com prata - ATRAUMAN AG / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product: "Compressa absorvente - HYDROFILM PLUS",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product: "Curativo Transparente - HYDROFILM",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product: "Fixador e protetor de cateter - PELICULA ADESIVA / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product: "Placa alginato de cálcio - SORBALGON / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL AG / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL DRESSING / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL NON BORDER / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos (desenvolvido para região sacral) - PROXIMEL SACRAL  / HARTMANN",
+  },
+  {
+    category: "Tratamentos de ferida",
+    subCatgegory: "Curativo",
+    product:
+      "Absorção da secreção conservando em sua estrutura  (desenvolvido para região sacral) - PROXIMEL SACRAL HYDROCOLL / HARTMANN",
+  },
+  {
+    category: "Material",
+    subCatgegory: "Higiene pessoal",
+    product:
+      "Fralda geriatrica diurna - FRALDA MOLICARE PREMIUM ELASTIC 6D  / HARTMANN",
+  },
+  {
+    category: "Material",
+    subCatgegory: "Higiene pessoal",
+    product:
+      "Fralda geriatrica noturna  - FRALDA MOLICARE PREMIUM ELASTIC 8D  / HARTMANN",
+  },
+  {
+    category: "Material",
+    subCatgegory: "Equipo para infusão de multiplas",
+    product: "Equipo  2 vias C CLAMP  - LA VITA",
+  },
+  {
+    category: "Material",
+    subCatgegory: "Equipo para acessorio na terapia infusional",
+    product: "Equipo 2 via valvulado - LA VITA ",
+  },
+  {
+    category: "Material",
+    subCatgegory:
+      "Equipo para idosos e pediatria com rigoroso controle de gatejamento ",
+    product: "Equipo Bureta fl de ar - LA VITA",
+  },
+  {
+    category: "Material",
+    subCatgegory:
+      "Equipo para admnistração de dietas, araves de sondas enteral ou nasogástrica",
+    product: "Equipo dieta Enteral - LA VITA",
+  },
+  {
+    category: "Material",
+    subCatgegory:
+      "Equipo pode ser utilizado com agulhas, escalpes, catetes ou torneiras",
+    product: "Equipo macro completo Injetor lateral  - LA VITA",
+  },
+];
+
 export const HighlightsProductsData: IProductsData[] = [
   {
     id: 1,
