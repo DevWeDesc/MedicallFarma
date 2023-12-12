@@ -1,61 +1,71 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { IProductsData } from "../../../types/types";
+import { IListProductsData, IProductsData } from "../../../types/types";
 
 export const CardProduct = ({
   image,
-  name,
-  content,
+  product,
+  subCatgegory,
   supplier,
-  categories,
+  // categories,
   size,
-}: IProductsData) => {
+}: IListProductsData) => {
   // const [size, setConfigCard] = useState("");
-  const [contentProduct, setContentProduct] = useState("");
+  // const [contentProduct, setContentProduct] = useState("");
 
-  useEffect(() => {
-    size === "large"
-      ? setContentProduct(content)
-      : setContentProduct(content?.substring(0, 83));
-  }, [contentProduct]);
+  // useEffect(() => {
+  //   size === "large"
+  //     ? setContentProduct(content)
+  //     : setContentProduct(content?.substring(0, 83));
+  // }, [contentProduct]);
 
   return (
     <div
       className={`flex flex-col text-left ${
         size === "large"
-          ? "gap-4 items-center lg:grid lg:grid-cols-2 lg:justify-items-center"
-          : "gap-2"
+          ? "gap-4 items-center lg:grid lg:grid-cols-2 lg:items-center lg:justify-items-center"
+          : "gap-2 h-full justify-between"
       } gap-2`}
     >
       <Image
         alt=""
-        className={`${size === "large" ? "lg:w-4/5" : ""}`}
+        className={`${
+          size === "large"
+            ? "lg:w-4/5"
+            : "min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+        }`}
         src={image}
       />
-      <div className={`${size === "large" && "flex flex-col gap-2"}`}>
+      <div
+        className={`${
+          size === "large"
+            ? "flex w-full flex-col gap-2"
+            : "flex flex-col h-full justify-between"
+        }`}
+      >
         <p
           className={`font-medium min-h-[32px] lg:min-h-[48px] ${
-            size === "large" ? "text-2xl lg:text-5xl" : "text-xs lg:text-base"
+            size === "large" ? "text-2xl lg:text-5xl" : "text-xs lg:text-sm"
           }`}
         >
-          {name}
+          {product}
         </p>
         <p
           className={`font-light pr-3 ${
             size === "large"
               ? "text-sm opacity-70 lg:text-xl"
-              : "text-xs lg:text-sm"
+              : "text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
           }`}
         >
-          {contentProduct}
+          {subCatgegory}
         </p>
         <p
           className={`font-medium  ${
-            size === "large" ? "text-base lg:text-xl" : "text-xs lg:text-base"
+            size === "large" ? "text-base lg:text-xl" : "text-xs lg:text-sm"
           }`}
         >
-          {supplier}
+          Fornecido por {supplier}
         </p>
         {size === "large" && (
           <div className="mt-4 lg:mt-10 flex flex-col gap-2">
@@ -63,15 +73,15 @@ export const CardProduct = ({
               Solicitar um Orçamento
             </button>
             <p className="font-medium lg:text-xl">
-              Categorias:{" "}
-              {categories?.map((item, index) => {
+              Categoria: {subCatgegory}
+              {/* {categories?.map((item, index) => {
                 let TextCategories =
                   index === categories.length - 1
                     ? item.concat(".")
                     : item.concat(", ");
 
                 return <span key={index}>{TextCategories}</span>;
-              })}
+              })} */}
             </p>
           </div>
         )}
