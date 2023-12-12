@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductsRecomendedData } from "../../data/data";
+import { ListProductsData, ProductsRecomendedData } from "../../data/data";
 import Link from "next/link";
 import { CardProduct } from "./Cards/CardProduct";
 
@@ -9,8 +9,8 @@ export const ProductsRecommended = () => {
       <h2 className="text-xl font-bold lg:text-5xl">
         Produtos Recomendados para Você!
       </h2>
-      <div className="grid grid-cols-3 gap-3 lg:grid-cols-5 lg:gap-6">
-        {ProductsRecomendedData.map((item) => (
+      <div className="grid grid-cols-2 gap-10 lg:grid-cols-5 lg:gap-20">
+        {ListProductsData.map((item) => (
           <Link
             href={`/detailsProduct/${item.id}`}
             className="hover:scale-105 transition-all"
@@ -19,9 +19,11 @@ export const ProductsRecommended = () => {
             <CardProduct
               key={item.id}
               id={item.id}
-              content={item.content}
+              product={item.product}
               image={item.image}
-              name={item.name}
+              category={item.category}
+              subCatgegory={item.subCatgegory}
+              href=""
               supplier={item.supplier}
             />
           </Link>
