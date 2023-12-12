@@ -14,10 +14,10 @@ export const CardSolutions = ({ title, href }: ICardSoluctions) => {
 
   const IconCardSoluction = () => {
     const styleIcon: string = "text-4xl lg:text-8xl xl:text-9xl";
-    if (title === "Medicamentos") {
+    if (title === "Saneantes") {
       setBgColorCard("bg-blueDark");
       return <RiMedicineBottleLine className={styleIcon} />;
-    } else if (title === "Dietas Enterais") {
+    } else if (title === "Tratamentos de ferida") {
       setBgColorCard("bg-yellowDefault");
       return <RiHeartPulseLine className={styleIcon} />;
     } else {
