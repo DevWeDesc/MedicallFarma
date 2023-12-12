@@ -6,6 +6,7 @@ import {
   IDataNav,
   IProductsData,
   NavigationSocialMediaType,
+  IListProductsData,
 } from "../types/types";
 import Product1 from "../public/ImageProduct1.png";
 import Product2 from "../public/ImageProduct2.png";
@@ -79,264 +80,378 @@ import { StaticImageData } from "next/image";
 import ImageHigiene from "../public/image 98.png";
 import ImageCurativo from "../public/image 97.png";
 import ImageSeringa from "../public/image 96.png";
-import { Interface } from "readline";
+import imageGlutomax from "../public/ProductsImage/Glutamax5litros.png";
+import imageNanoPlus from "../public/ProductsImage/nanoPlus.png";
+import imagePeroxyPlus from "../public/ProductsImage/PeroxiPlus.png";
+import imageW80 from "../public/ProductsImage/w80-PhotoRoom.png-PhotoRoom.png";
+import imageCISANOX from "../public/ProductsImage/cisanox.png";
+import imageCISAZYNES from "../public/ProductsImage/cizazymes.png";
+import imageEnzyma6 from "../public/ProductsImage/enzima6.png";
+import imageCISAZYMESECO from "../public/ProductsImage/cizazymeseco-PhotoRoom.png-PhotoRoom.png";
+import imageProactions from "../public/ProductsImage/proactionanios-PhotoRoom.png-PhotoRoom.png";
+import imageEnzyMaxEco from "../public/ProductsImage/EnzyMaxECO_5litros-PhotoRoom.png-PhotoRoom.png";
+import imageRyozibe from "../public/ProductsImage/ryozime-ex-5.png";
+import imageMegazine from "../public/ProductsImage/megazyme-premium-5litros-PhotoRoom.png-PhotoRoom.png";
+import imageVivanotec from "../public/ProductsImage/vivanotec-PhotoRoom.png-PhotoRoom.png";
+import imagePortsystem from "../public/ProductsImage/portsystem-PhotoRoom.png-PhotoRoom.png";
+import imageAdominal from "../public/ProductsImage/abdominal-PhotoRoom.png-PhotoRoom.png";
+import imageReservatorio from "../public/ProductsImage/reservatório-PhotoRoom.png-PhotoRoom.png";
+import imageCurativoAtrauman from "../public/ProductsImage/atrauman-ag-10-x-20-kctzgin0y0-PhotoRoom.png-PhotoRoom.png";
+import imageHidratante from "../public/ProductsImage/DermilonCremeBarreira60g-1-PhotoRoom.png-PhotoRoom.png";
+import imageAtraumanAG from "../public/ProductsImage/atrauman-ag-10-x-20-kctzgin0y0-PhotoRoom.png-PhotoRoom.png";
+import ImageHYDROFILM from "../public/ProductsImage/hydrofilm-10-x-1-0d7sc1878j.png";
+import ImageCateter from "../public/ProductsImage/fixadoreprotetorcaracter-PhotoRoom.png-PhotoRoom.png";
+import ImageAlginato from "../public/ProductsImage/estimuladorgerenciamentodedinamicos-PhotoRoom.png-PhotoRoom.png";
+import ImageEstimulador from "../public/ProductsImage/estimuladorgerenciamnetoproxdressing-PhotoRoom.png-PhotoRoom.png";
+import ImageCurativoNonBorder from "../public/ProductsImage/CURATIVO-PROXIMEL-NON-BORDER-HARTMANN-LL-MEDICAL-PhotoRoom.png-PhotoRoom.png";
+import ImageCurativoProximel from "../public/ProductsImage/CURATIVO-PROXIMEL-AG-HARTMANN-LL-MEDICAL-630x630-PhotoRoom.png-PhotoRoom.png";
+import ImageCurativoAbsorcaoSecrecao from "../public/ProductsImage/curativoabsorcaosecrecao-PhotoRoom.png-PhotoRoom.png";
+import ImageMolicarePremium from "../public/ProductsImage/molicarepremiumelastic6dm_600x600-PhotoRoom.png-PhotoRoom.png";
+import ImageMolicarePremium8D from "../public/ProductsImage/Fralda-Adulto-MoliCare-Elastic-Premium-8D-Super-Plus---Hartmann-PhotoRoom.png-PhotoRoom.png";
+import Equipo2VLAVITA from "../public/ProductsImage/equipo2vLaVIta-PhotoRoom.png-PhotoRoom.png";
+import EquipoValvulado from "../public/ProductsImage/EMU16A-Extensor-2-Vias-Neonatal-Valvulado-La-Vita-PhotoRoom.png-PhotoRoom.png";
+import EquipoMicrogotas from "../public/ProductsImage/Equipo-Microgotas-Bureta-La-Vita-PhotoRoom.png-PhotoRoom.png";
+import EquipoDietaEnteral from "../public/ProductsImage/Equipo-de-Dieta-Enteral-La-Vita-PhotoRoom.png-PhotoRoom.png";
+import EquipoMacroGotas from "../public/ProductsImage/EMA-01-Equipo-Macrogotas-Valvulado-Completo-La-Vita-PhotoRoom.png-PhotoRoom.png";
 
-export const ListProductsData = [
+export const ListProductsData: IListProductsData[] = [
   {
     id: 1,
+    image: imageGlutomax,
     category: "Saneantes",
     subCatgegory: "Limpeza e desinfecção",
     product: "Desinfetante alto nível - Glutomax",
     href: "/saneantes/limpeza-e-desinfeccao",
+    supplier: "Glutomax",
   },
   {
     id: 2,
+    image: imageNanoPlus,
     category: "Saneantes",
     subCatgegory: "Limpeza e desinfecção",
     product: "Desinfetante - CISA NANOPLUS",
     href: "/saneantes/limpeza-e-desinfeccao",
+    supplier: "CISA NANOPLUS",
   },
   {
     id: 3,
+    image: imagePeroxyPlus,
     category: "Saneantes",
     subCatgegory: "Limpeza multiuso",
     product: "Detergente desinfetante concentrado - PEROXY PLUS",
-    href: "/saneantes/limpeza-multiuso"
+    href: "/saneantes/limpeza-multiuso",
+    supplier: "PEROXY PLUS",
   },
   {
     id: 4,
+    image: imageW80,
     category: "Saneantes",
     subCatgegory: "Limpeza em superfície fixa",
     product: "Desifetante hospitalar - W80",
-    href: "/saneantes/limpeza-em-superficie-fixa"
+    href: "/saneantes/limpeza-em-superficie-fixa",
+    supplier: "W80",
   },
   {
     id: 5,
+    image: imageCISANOX,
     category: "Saneantes",
     subCatgegory: "Desincrustante",
     product: "Solução concentrada - CISA NOX",
     href: "/saneantes/desincrustante",
+    supplier: "CISA NOX",
   },
   {
     id: 6,
+    image: imageCISAZYNES,
     category: "Saneantes",
     subCatgegory: "Limpeza de instrumentais cirúrgicos",
     product: "Detergente - CISA ZYMES ECO",
     href: "/saneantes/limpeza-de-instrumentais-cirurgicos",
+    supplier: " CISA ZYMES ECO",
   },
   {
     id: 7,
+    image: imageEnzyma6,
     category: "Saneantes",
     subCatgegory: "Limpeza instrumental cirúrgico e materiais hospitalares",
     product: "Detergente multienzimático - ENZYMA 6",
     href: "/saneantes/limpeza-instrumental-cirurgico",
+    supplier: "ENZYMA 6",
   },
   {
     id: 8,
+    image: imageCISAZYMESECO,
     category: "Saneantes",
     subCatgegory: "Limpeza e desinfecção gorduras e celuloses",
     product: "Detergente - CISA ZYMES ECO",
     href: "/saneantes/limpeza-e-desinfeccao-gorduras-e-celuloses",
+    supplier: "CISA ZYMES ECO",
   },
   {
     id: 9,
+    image: imageProactions,
     category: "Saneantes",
     subCatgegory: "Limpeza para pré uso de materias  hospitalares",
     product: "Detergente Enzimatico - PROACTION ANIOS",
     href: "/saneantes/limpeza-pre-uso-de-materias-hospitalares",
+    supplier: "PROACTION ANIOS",
   },
   {
     id: 10,
+    image: imageEnzyMaxEco,
     category: "Saneantes",
     subCatgegory:
       "Limpeza manual, mecânica, ultrassônica dos artigos cirúrgicos e endoscópios",
-    product: "Detergente Enziamatico - COSMODERNA ",
+    product: "Detergente Enziamatico - COSMODERNA",
     href: "/saneantes/limpeza-manual-mecanica-ultrassonica-dos-artigos-cirurgicos-endoscopios",
+    supplier: "COSMODERNA",
   },
   {
     id: 11,
+    image: imageRyozibe,
     category: "Saneantes",
     subCatgegory:
       "Cirúrgicos, canulados, odontológicos, inalatórios, endoscópios e laboratoriais",
-    product: "Detergente Enzimatico - RYOZIBE EX RIOQUIMICA ",
+    product: "Detergente Enzimatico - RYOZIBE EX RIOQUIMICA",
     href: "/saneantes/cirurgicos-canulados-inalatorios-endoscopios-laboratoriais",
+    supplier: "RIOQUIMICA",
   },
   {
     id: 12,
+    image: imageEnzyMaxEco,
     category: "Saneantes",
     subCatgegory:
       "Limpeza de endoscópios, cateteres, odontologicos, pisos e vidrarias",
     product: "Detergente Enzimatico - COSMODERMA",
     href: "/saneantes/limpeza-de-endoscopios-cateteres-odontologicos-pisos-vidrarias",
+    supplier: "COSMODERMA",
   },
   {
     id: 13,
+    image: imageMegazine,
     category: "Saneantes",
     subCatgegory: "Limpeza de aparelhos óticas",
     product: "Detergente multienzimático  - MEGAZYNE COSMODERNA",
     href: "/saneantes/limpeza-de-aparelhos-oticas",
+    supplier: "MEGAZYNE",
   },
   {
     id: 14,
+    image: imageVivanotec,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product: "Vivanotec Y - HARTMANN",
     href: "/tratamentos-de-ferida/pressao-negativa",
+    supplier: "HARTMANN",
   },
   {
     id: 15,
+    image: imagePortsystem,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product: "Portsystem/Conector - HARTMANN",
     href: "/tratamentos-de-ferida/pressao-negativa",
+    supplier: "HARTMANN",
   },
   {
     id: 16,
+    image: imageAdominal,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product: "Kit para terapia P, M, G e ABDOMINAL - HARTMANN",
     href: "/tratamentos-de-ferida/pressao-negativa",
+    supplier: "HARTMANN",
   },
   {
     id: 17,
+    image: imageReservatorio,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product: "Reservatórios 300ML e 800ML - HARTMANN",
     href: "/tratamentos-de-ferida/pressao-negativa",
+    supplier: "HARTMANN",
   },
   {
     id: 18,
+    image: imageCurativoAtrauman,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product:
       "Curativo revestido com gel de silicone - ATRAUMAN SILICONE / HARTMANN",
     href: "/tratamentos-de-ferida/pressao-negativa",
+    supplier: "HARTMANN",
   },
   {
     id: 19,
+    image: imageHidratante,
     category: "Tratamentos de ferida",
     subCatgegory: "Protetor contra fluidos corporais",
     product: "Creme barreira - HIDRATANTE DERMILON COSMODERMA",
     href: "/tratamentos-de-ferida/protetor-contra-fluidos-corporais",
+    supplier: "COSMODERMA",
   },
   {
     id: 20,
+    image: imageAtraumanAG,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Curativo impregnado com prata - ATRAUMAN AG / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 21,
+    image: ImageHYDROFILM,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Compressa absorvente - HYDROFILM PLUS",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HYDROFILM",
   },
   {
     id: 22,
+    image: ImageHYDROFILM,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Curativo Transparente - HYDROFILM",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HYDROFILM",
   },
   {
     id: 23,
+    image: ImageCateter,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Fixador e protetor de cateter - PELICULA ADESIVA / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 24,
+    image: ImageAlginato,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Placa alginato de cálcio - SORBALGON / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 25,
+    image: ImageAlginato,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
-    product: "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL AG / HARTMANN",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL AG / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 26,
+    image: ImageEstimulador,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
-    product: "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL DRESSING / HARTMANN",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL DRESSING / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 27,
+    image: ImageCurativoNonBorder,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
-    product: "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL NON BORDER / HARTMANN",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL NON BORDER / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 28,
+    image: ImageCurativoProximel,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
-    product: "Estimulador do gerenciamento dinâmico de fluidos (desenvolvido para região sacral) - PROXIMEL SACRAL  / HARTMANN",
+    product:
+      "Estimulador do gerenciamento dinâmico de fluidos (desenvolvido para região sacral) - PROXIMEL SACRAL  / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 29,
+    image: ImageCurativoAbsorcaoSecrecao,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
-    product: "Absorção da secreção conservando em sua estrutura  (desenvolvido para região sacral) - PROXIMEL SACRAL HYDROCOLL / HARTMANN",
+    product:
+      "Absorção da secreção conservando em sua estrutura  (desenvolvido para região sacral) - PROXIMEL SACRAL HYDROCOLL / HARTMANN",
     href: "/tratamentos-de-ferida/curativo",
+    supplier: "HARTMANN",
   },
   {
     id: 30,
+    image: ImageMolicarePremium,
     category: "Material",
     subCatgegory: "Higiene pessoal",
-    product: "Fralda geriatrica diurna - FRALDA MOLICARE PREMIUM ELASTIC 6D  / HARTMANN",
+    product:
+      "Fralda geriatrica diurna - FRALDA MOLICARE PREMIUM ELASTIC 6D  / HARTMANN",
     href: "/material/higiene-pessoal",
+    supplier: "HARTMANN",
   },
   {
     id: 31,
+    image: ImageMolicarePremium8D,
     category: "Material",
     subCatgegory: "Higiene pessoal",
-    product: "Fralda geriatrica noturna  - FRALDA MOLICARE PREMIUM ELASTIC 8D  / HARTMANN",
+    product:
+      "Fralda geriatrica noturna  - FRALDA MOLICARE PREMIUM ELASTIC 8D  / HARTMANN",
     href: "/material/higiene-pessoal",
+    supplier: "HARTMANN",
   },
   {
     id: 32,
+    image: Equipo2VLAVITA,
     category: "Material",
     subCatgegory: "Equipo para infusão de multiplas",
     product: "Equipo  2 vias C CLAMP  - LA VITA",
     href: "/material/equipo-para-infusao-de-multiplas",
+    supplier: "LA VITA",
   },
   {
     id: 33,
+    image: EquipoValvulado,
     category: "Material",
     subCatgegory: "Equipo para acessorio na terapia infusional",
-    product: "Equipo 2 via valvulado - LA VITA ",
+    product: "Equipo 2 via valvulado - LA VITA",
     href: "/material/equipo-para-acessorio-na-terapia-infusional",
+    supplier: "LA VITA",
   },
   {
     id: 34,
+    image: EquipoMicrogotas,
     category: "Material",
-    subCatgegory: "Equipo para idosos e pediatria com rigoroso controle de gatejamento ",
+    subCatgegory:
+      "Equipo para idosos e pediatria com rigoroso controle de gatejamento ",
     product: "Equipo Bureta fl de ar - LA VITA",
     href: "/material/equipo-para-idosos-pediatria-com-rigoroso-controle-de-gatejamento",
+    supplier: "LA VITA",
   },
   {
     id: 35,
+    image: EquipoDietaEnteral,
     category: "Material",
-    subCatgegory: "Equipo para admnistração de dietas, araves de sondas enteral ou nasogástrica",
+    subCatgegory:
+      "Equipo para admnistração de dietas, araves de sondas enteral ou nasogástrica",
     product: "Equipo dieta Enteral - LA VITA",
     href: "/material/equipo-para-admnistracao-de-dietas-araves-de-sondas-enteral-ou-nasogastrica",
+    supplier: "LA VITA",
   },
   {
     id: 36,
+    image: EquipoMacroGotas,
     category: "Material",
-    subCatgegory: "Equipo pode ser utilizado com agulhas, escalpes, catetes ou torneiras",
+    subCatgegory:
+      "Equipo pode ser utilizado com agulhas, escalpes, catetes ou torneiras",
     product: "Equipo macro completo Injetor lateral  - LA VITA",
     href: "/material/equipo-pode-ser-utilizado-com-agulhas-escalpes-catetes-ou-torneiras",
+    supplier: "LA VITA",
   },
 ];
 
@@ -516,47 +631,46 @@ export const ProductsRecomendedData: IProductsData[] = [
 
 export const CardSoluctionData: ICardSoluctions[] = [
   {
-    title: "Medicamentos",
-    href: "/Medicamentos",
+    title: "Saneantes",
+    href: "/Saneantes",
     subCategories: ["Medicamento Genérico", "Materiais Medicos"],
   },
   {
-    title: "Dietas Enterais",
-    href: "/Dietas Enterais",
+    title: "Tratamentos de ferida",
+    href: "/Tratamentos de ferida",
     subCategories: [],
   },
   {
-    title: "Materiais Médicos",
-    href: "/Materiais Medicos",
+    title: "Material",
+    href: "/Material",
     subCategories: [],
   },
 ];
 
+const Saneantes = ListProductsData.filter(
+  (item) => item.category === "Saneantes"
+).map((item) => ({ title: item.subCatgegory, href: item.href }));
 
-const Saneantes = ListProductsData.filter((item) => item.category === "Saneantes").map((item) =>  ({ title: item.subCatgegory, href: item.href }) );
+const TratamentosDeFerida = ListProductsData.filter(
+  (item) => item.category === "Tratamentos de ferida"
+).map((item) => ({ title: item.subCatgegory, href: item.href }));
 
-const TratamentosDeFerida = ListProductsData.filter((item) => item.category === "Tratamentos de ferida").map((item) =>  ({ title: item.subCatgegory, href: item.href }) );
+const Material = ListProductsData.filter(
+  (item) => item.category === "Material"
+).map((item) => ({ title: item.subCatgegory, href: item.href }));
 
-const Material = ListProductsData.filter((item) => item.category === "Material").map((item) =>  ({ title: item.subCatgegory, href: item.href }) );
-
-
-
-function uniqueTitle(array: ISubCategories[]){
+function uniqueTitle(array: ISubCategories[]) {
   const uniqueTitlesSet = new Set();
   const ArraySubs = array.filter((item: ISubCategories) => {
-      const isUnique = !uniqueTitlesSet.has(item.title);
-      uniqueTitlesSet.add(item.title);
-      return isUnique;
+    const isUnique = !uniqueTitlesSet.has(item.title);
+    uniqueTitlesSet.add(item.title);
+    return isUnique;
   });
   return ArraySubs;
-
 }
 const MaterialSubs = uniqueTitle(Material);
 const TratamentosDeFeridaSubs = uniqueTitle(TratamentosDeFerida);
 const SaneantesSubs = uniqueTitle(Saneantes);
-
-
-
 
 export const CategoriesData: ICategories[] = [
   {
