@@ -57,7 +57,7 @@ export const Combobox = () => {
           <div className="flex flex-col gap-6 ">
             {categorySelected?.subCategories.map((item, index) => (
               <Link
-                href={`/Medicamentos`}
+                href={`/Medicamentos/${item.title}`}
                 key={index}
                 className="flex items-center gap-3 opacity-90 hover:opacity-100 hover:font-semibold transition-all"
               >
