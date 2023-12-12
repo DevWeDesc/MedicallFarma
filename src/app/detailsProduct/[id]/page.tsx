@@ -1,19 +1,24 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { ProductsRecomendedData } from "../../../../data/data";
-import { IProductsData } from "../../../../types/types";
+import {
+  ListProductsData,
+  ProductsRecomendedData,
+} from "../../../../data/data";
+import { IListProductsData, IProductsData } from "../../../../types/types";
 import { CardProduct } from "@/components/Cards/CardProduct";
 import Link from "next/link";
 import SwiperHighlighs from "@/components/SwiperHighlighs/SwiperHighlighs";
 
 export default function Page({ params }: { params: { id: number } }) {
   const { id } = params;
-  const [productSelected, setProductSelected] = useState({} as IProductsData);
+  const [productSelected, setProductSelected] = useState(
+    {} as IListProductsData
+  );
 
   useEffect(() => {
-    let ProductFiltered: IProductsData | {} =
-      ProductsRecomendedData.find((item) => item.id == id) || {};
-    setProductSelected(ProductFiltered as IProductsData);
+    let ProductFiltered: IListProductsData | {} =
+      ListProductsData.find((item) => item.id == id) || {};
+    setProductSelected(ProductFiltered as IListProductsData);
   }, []);
   console.log(productSelected);
 
@@ -28,16 +33,17 @@ export default function Page({ params }: { params: { id: number } }) {
         <div className="lg:pr-28">
           <CardProduct
             size="large"
-            content={productSelected.content}
+            product={productSelected.product}
             id={productSelected.id}
             image={productSelected.image}
-            name={productSelected.name}
+            category={productSelected.category}
             supplier={productSelected.supplier}
-            categories={productSelected.categories}
+            href={productSelected.href}
+            subCatgegory={productSelected.subCatgegory}
           />
         </div>
       </div>
-      {productSelected.description && (
+      {/* {productSelected.description && (
         <div>
           <h3 className="text-xl font-medium mb-2 lg:text-4xl">Descrição</h3>
           <div className="flex flex-col gap-3 text-sm lg:text-xl">
@@ -49,7 +55,7 @@ export default function Page({ params }: { params: { id: number } }) {
             ))}
           </div>
         </div>
-      )}
+      )} */}
       <div className="flex flex-col mt-10 gap-2">
         <h2 className="text-xl font-medium">Produtos Recomendados</h2>
         <SwiperHighlighs />
