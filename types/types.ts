@@ -54,3 +54,15 @@ export type ICardAbout = {
   title: string;
   content: string | string[];
 };
+
+export type IListProductsData = {
+  id: number;
+  image: string | StaticImageData;
+  category: string;
+  subCatgegory: string;
+  product: string;
+  href: string;
+  supplier: string;
+  size?: string;
+  // description?: { title: string; content: string }[];
+};
