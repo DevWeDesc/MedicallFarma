@@ -9,6 +9,7 @@ import { CiPlay1 } from "react-icons/ci";
 export const Combobox = () => {
   const [comboOpen, setComboOpen] = useState(false);
   const [categorySelected, setCategorySelected] = useState<ICategories>();
+  console.log(categorySelected, "sdsadsadasdsadsad");
 
   const handleComboOpen = (item: ICategories) => {
     if (comboOpen) {
@@ -57,7 +58,7 @@ export const Combobox = () => {
           <div className="flex flex-col gap-6 ">
             {categorySelected?.subCategories.map((item, index) => (
               <Link
-                href={`/Medicamentos/${item.title}`}
+                href={`${item.href}`}
                 key={index}
                 className="flex items-center gap-3 opacity-90 hover:opacity-100 hover:font-semibold transition-all"
               >

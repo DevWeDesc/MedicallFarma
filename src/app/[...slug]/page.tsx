@@ -10,8 +10,10 @@ import Link from "next/link";
 import { CardProduct } from "@/components/Cards/CardProduct";
 
 export default function Page({ params }: { params: { category: string } }) {
+  
+  console.log(params, 'PARAMS ');
   let { category } = params;
-  category = category.includes("%20") ? category.replace("%20", " ") : category;
+  // category = category.includes("%20") ? category.replace("%20", " ") : category;
   const [ProductsCategory, setProductsCategory] = useState<IProductsData[]>([]);
   const [ImagePage, setImagePage] = useState<StaticImageData | string>("");
   const [filterSubCategorie, setFilterSubCategorie] = useState<string[]>([]);

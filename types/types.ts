@@ -47,6 +47,7 @@ export type ICategories = {
 
 export type ISubCategories = {
   title: string;
+  href?: string;
 };
 
 export type ICardAbout = {
