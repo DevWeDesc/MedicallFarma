@@ -1,14 +1,13 @@
-import { Aboult } from "@/components/Aboult";
+"use client";
 import { Banner } from "@/components/Banner";
 import { Combobox } from "@/components/Combobox";
 import { HighlightsProducts } from "@/components/HighlightsProducts";
 import { ProductsRecommended } from "@/components/ProductsRecommended";
-import { SearchCategory } from "@/components/SearchCategory";
 import { Separator } from "@/components/Separator";
 import SolutionsMoment from "@/components/SolutionsMoment";
 import { Suppliers } from "@/components/Suppliers";
-import { CategoriesData } from "../../data/data";
 import Link from "next/link";
+import { Motion } from "@/animations/Motion";
 
 export default function Home() {
   return (
@@ -19,18 +18,12 @@ export default function Home() {
       <section id="Init">
         <Banner />
       </section>
-      {/* <section id="About">
-        <Aboult />
-      </section> */}
       <section id="HighlightsProduct">
         <HighlightsProducts />
       </section>
       <section id="Soluctions">
         <SolutionsMoment />
       </section>
-      {/* <section id="Categories">
-        <SearchCategory />
-      </section> */}
       <Separator />
       <section id="Suppliers">
         <Suppliers title="Nossos Fornecedores" />
@@ -45,6 +38,7 @@ export default function Home() {
           Ir para About
         </Link>
       </section>
+      <Motion />
     </main>
   );
 }
