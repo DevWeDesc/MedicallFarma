@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import { ProductsRecomendedData } from "../../data/data";
-import { IProductsData } from "../../types/types";
-import { CardProduct } from "./Cards/CardProduct";
+import { ListProductsData } from "../../data/data";
+import { IListProductsData } from "../../types/types";
 import Link from "next/link";
 import Image from "next/image";
 import { IoArrowBackOutline } from "react-icons/io5";
@@ -13,20 +12,26 @@ type ISearchBar = {
 
 export const SearchBar = ({ handleSearchOpen }: ISearchBar) => {
   const [productSearchFiltered, setProductSearchFiltered] = useState<
-    IProductsData[]
+    IListProductsData[]
   >([]);
   const [valueInput, setValueInput] = useState("");
 
   useEffect(() => {
-    let ProductData: IProductsData[] = [];
+    let ProductData: IListProductsData[] = [];
     valueInput
-      ? (ProductData = ProductsRecomendedData.filter((item) =>
-          item.name.toLocaleLowerCase().includes(valueInput.toLocaleLowerCase())
+      ? (ProductData = ListProductsData.filter((item) =>
+          item.product
+            .toLocaleLowerCase()
+            .includes(valueInput.toLocaleLowerCase())
         ))
-      : (ProductData = ProductsRecomendedData);
+      : (ProductData = ListProductsData);
 
     setProductSearchFiltered(ProductData);
   }, [valueInput]);
+
+  const handleValueInput = () => {
+    setValueInput("");
+  };
 
   return (
     <div className="bg-grayLight py-1 px-2 gap-2 flex justify-center rounded-full w-full relative lg:w-2/3 lg:m-auto">
@@ -57,18 +62,18 @@ export const SearchBar = ({ handleSearchOpen }: ISearchBar) => {
             <Link
               href={`/detailsProduct/${item.id}`}
               key={item.id}
-              onClick={handleSearchOpen}
+              onClick={() => {
+                handleSearchOpen();
+                handleValueInput();
+              }}
               className="text-white"
             >
               <div className="flex items-center gap-2 lg:gap-6">
                 <Image alt="" className="h-8 w-auto lg:h-20" src={item.image} />{" "}
                 <div>
                   <p className="text-xs lg:text-base font-medium">
-                    {item.name}
+                    {item.product}
                   </p>
-                  <span className="text-[10px] lg:text-sm">
-                    {item.content.substring(0, 23).concat("...")}
-                  </span>
                 </div>
               </div>
             </Link>
