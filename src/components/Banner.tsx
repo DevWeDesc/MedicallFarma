@@ -1,8 +1,9 @@
+"use client";
 import React from "react";
 // import ImageBanner from "../../public/ImageBanner.png";
 import ImageBanner from "../../public/GroupProductsBanner.svg";
 import Image from "next/image";
-import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const Banner = () => {
   return (
@@ -22,7 +23,14 @@ export const Banner = () => {
           Procurar Medicamentos
         </Link> */}
       </div>
-      <Image alt="" className="m-auto" src={ImageBanner} />
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 1.5 }}
+      >
+        <Image alt="" className="m-auto" src={ImageBanner} />
+      </motion.div>
       {/* <Image alt="" src={ImageBanner} /> */}
     </div>
   );
