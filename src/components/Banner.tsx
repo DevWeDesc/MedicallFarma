@@ -24,10 +24,19 @@ export const Banner = () => {
         </Link> */}
       </div>
       <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        whileHover={{ scale: 1.1 }}
-        transition={{ duration: 1.5 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        whileHover={{ scale: 1.05 }}
+        transition={{
+          duration: 2,
+          ease: [0, 0.71, 0.2, 1.01],
+          scale: {
+            type: "spring",
+            damping: 3,
+            stiffness: 100,
+            restDelta: 0.001,
+          },
+        }}
       >
         <Image alt="" className="m-auto" src={ImageBanner} />
       </motion.div>
