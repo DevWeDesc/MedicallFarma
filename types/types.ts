@@ -66,3 +66,10 @@ export type IListProductsData = {
   size?: string;
   // description?: { title: string; content: string }[];
 };
+
+export type IProducsCategoryComponent = {
+  ImagePage: string | StaticImageData;
+  titlePage: string;
+  categoryAUX: string;
+  listProductsCategory: IListProductsData[];
+};
