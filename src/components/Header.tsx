@@ -26,7 +26,7 @@ export const Header = () => {
       }`}
     >
       <Link href="/" className="col-span-2">
-        <Image alt="" src={Logo} className="h-5 w-auto xl:h-14" />
+        <Image alt="" src={Logo} className="h-5 sm:h-10 w-auto xl:h-14" />
       </Link>
 
       <div
