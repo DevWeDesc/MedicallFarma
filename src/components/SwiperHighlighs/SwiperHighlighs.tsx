@@ -15,7 +15,13 @@ export default function SwiperHighlighs() {
 
   useEffect(() => {
     if (window) {
-      window.innerWidth >= 640 ? setSlidesPerView(5) : setSlidesPerView(2.1);
+      if (window.innerWidth <= 640) {
+        setSlidesPerView(2.1);
+      } else if (window.innerWidth <= 1200) {
+        setSlidesPerView(4);
+      } else {
+        setSlidesPerView(5);
+      }
     }
   }, []);
   return (
