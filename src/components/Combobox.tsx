@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { CategoriesData } from "../../data/data";
 import { ICategories } from "../../types/types";
-import { CiPlay1 } from "react-icons/ci";
 
 export const Combobox = () => {
   const [comboOpen, setComboOpen] = useState(false);
@@ -50,24 +49,35 @@ export const Combobox = () => {
         <div
           className={`${
             comboOpen && categorySelected
-              ? "absolute bg-grayLight z-10 py-10 px-6 rounded-md grid grid-cols-2 text-white transition-all"
+              ? "absolute bg-grayLight z-10 py-10 px-6 rounded-md gap-10 grid grid-cols-2 items-stretch text-white transition-all"
               : "absolute h-0 transition-all overflow-hidden"
           }`}
         >
-          <div className="flex flex-col gap-6 ">
+          <div
+            className={`${
+              categorySelected && categorySelected?.subCategories?.length >= 11
+                ? "grid grid-cols-2"
+                : "flex"
+            } flex flex-col gap-6`}
+          >
             {categorySelected?.subCategories.map((item, index) => (
               <Link
                 href={`${item.href}`}
                 key={index}
                 className="flex items-center gap-3 opacity-90 hover:opacity-100 hover:font-semibold transition-all"
               >
-                <CiPlay1 />
                 <p>{item.title}</p>
               </Link>
             ))}
           </div>
           {categorySelected && (
-            <Image alt="" className="max-w-sm" src={categorySelected?.image} />
+            <div className="w-full flex justify-stretch h-full items-stretch rounded-lg">
+              <Image
+                alt=""
+                className="object-cover w-full rounded-lg"
+                src={categorySelected?.image}
+              />
+            </div>
           )}
         </div>
       </div>
