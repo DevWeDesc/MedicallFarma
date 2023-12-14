@@ -1,3 +1,4 @@
+"use client";
 import { Aboult } from "@/components/Aboult";
 import { BannerAbout } from "@/components/BannerAbout";
 import { CardAbout } from "@/components/Cards/CardAbout";
