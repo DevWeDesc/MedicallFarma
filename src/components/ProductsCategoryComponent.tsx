@@ -3,6 +3,7 @@ import React from "react";
 import { CardProduct } from "./Cards/CardProduct";
 import { IProducsCategoryComponent } from "../../types/types";
 import Image from "next/image";
+import { AnimationScroll } from "@/animations/AnimationScroll";
 
 export const ProductsCategoryComponent = ({
   ImagePage,
@@ -34,28 +35,30 @@ export const ProductsCategoryComponent = ({
           </p>
         </div>
       </div>
-      <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12 2xl:px-80">
-        <div className="2xl:max-w-7xl 2xl:m-auto flex flex-col gap-10">
-          <h2 className="font-bold text-2xl sm:text-3xl lg:text-5xl">
-            {categoryAUX}
-          </h2>
-          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5 lg:gap-8  ">
-            {listProductsCategory.map((item) => (
-              <Link href={`/detailsProduct/${item.id}`} key={item.id}>
-                <CardProduct
-                  category={item.category}
-                  image={item.image}
-                  product={item.product}
-                  subCatgegory={item.subCatgegory}
-                  href={item.href}
-                  id={item.id}
-                  supplier={item.supplier}
-                />
-              </Link>
-            ))}
+      <AnimationScroll initialAnimation={true}>
+        <div className="py-16 px-5 flex flex-col gap-3 lg:px-28 lg:gap-12 2xl:px-80">
+          <div className="2xl:max-w-7xl 2xl:m-auto flex flex-col gap-10">
+            <h2 className="font-bold text-2xl sm:text-3xl lg:text-5xl">
+              {categoryAUX}
+            </h2>
+            <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-5 lg:gap-8  ">
+              {listProductsCategory.map((item) => (
+                <Link href={`/detailsProduct/${item.id}`} key={item.id}>
+                  <CardProduct
+                    category={item.category}
+                    image={item.image}
+                    product={item.product}
+                    subCatgegory={item.subCatgegory}
+                    href={item.href}
+                    id={item.id}
+                    supplier={item.supplier}
+                  />
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      </AnimationScroll>
     </div>
   );
 };
