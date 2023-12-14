@@ -6,6 +6,7 @@ import ImageAcessories from "../../../public/ImageAcessoriesMedic.png";
 import ImageMedicaments from "../../../public/ImageMedicaments.png";
 import { ProductsCategoryComponent } from "@/components/ProductsCategoryComponent";
 import { ListProductsData } from "../../../data/data";
+import { Motion } from "@/animations/Motion";
 
 export default function Page({ params }: { params: { category: string } }) {
   const { category } = params;
@@ -32,11 +33,14 @@ export default function Page({ params }: { params: { category: string } }) {
   console.log(listProductsCategory);
 
   return (
-    <ProductsCategoryComponent
-      ImagePage={ImagePage}
-      categoryAUX={categoryAUX}
-      listProductsCategory={listProductsCategory}
-      titlePage={titlePage}
-    />
+    <>
+      <ProductsCategoryComponent
+        ImagePage={ImagePage}
+        categoryAUX={categoryAUX}
+        listProductsCategory={listProductsCategory}
+        titlePage={titlePage}
+      />
+      <Motion />
+    </>
   );
 }

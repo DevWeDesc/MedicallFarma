@@ -4,6 +4,7 @@ import { CardAbout } from "@/components/Cards/CardAbout";
 import { Suppliers } from "@/components/Suppliers";
 import React from "react";
 import { CardAboutData } from "../../../data/data";
+import { Motion } from "@/animations/Motion";
 
 export default function Page() {
   return (
@@ -26,6 +27,7 @@ export default function Page() {
           content="As empresas estão empenhadas em fornecer produtos excepcionais aos nossos clientes. Buscamos parceiros que compartilhem nosso compromisso com altos padrões de qualidade, desde a matéria-prima até o produto final."
         />
       </section>
+      <Motion />
     </div>
   );
 }

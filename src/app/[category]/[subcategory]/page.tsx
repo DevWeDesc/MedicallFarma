@@ -8,6 +8,7 @@ import ImageDietaEnteral from "../../../../public/ImageDietasEnterais.png";
 import ImageAcessories from "../../../../public/ImageAcessoriesMedic.png";
 import ImageMedicaments from "../../../../public/ImageMedicaments.png";
 import { ProductsCategoryComponent } from "@/components/ProductsCategoryComponent";
+import { Motion } from "@/animations/Motion";
 
 export default function Page() {
   const { category, subcategory } = useParams();
@@ -32,11 +33,14 @@ export default function Page() {
 
   console.log(ProductsCategory);
   return (
-    <ProductsCategoryComponent
-      ImagePage={ImagePage}
-      categoryAUX={titlePage}
-      listProductsCategory={ProductsCategory}
-      titlePage={titlePage}
-    />
+    <>
+      <ProductsCategoryComponent
+        ImagePage={ImagePage}
+        categoryAUX={titlePage}
+        listProductsCategory={ProductsCategory}
+        titlePage={titlePage}
+      />
+      <Motion />
+    </>
   );
 }
