@@ -29,13 +29,13 @@ export const CardSolutions = ({ title, href }: ICardSoluctions) => {
   return (
     <Link href={href}>
       <div
-        className={`relative px-2 py-3 rounded-lg ${bgColorCard} hover:bg-opacity-90 transition-all lg:px-9 lg:py-9`}
+        className={`h-full flex flex-col justify-between px-2 py-3 rounded-lg ${bgColorCard} hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9`}
       >
-        <p className="text-sm font-semibold lg:h-20 xl:h-auto lg:text-4xl">
+        <p className="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl">
           {title}
         </p>
         <div className="flex items-start justify-between lg:mt-5">
-          <button className="text-[10px] bg-transparent border-b pb-[2px] border-white lg:text-lg">
+          <button className="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg">
             Conheça agora
           </button>
           {/* <Image alt="" className="lg:h-28 lg:w-auto" src={image} /> */}
