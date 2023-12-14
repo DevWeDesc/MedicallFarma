@@ -9,7 +9,6 @@ import { CiPlay1 } from "react-icons/ci";
 export const Combobox = () => {
   const [comboOpen, setComboOpen] = useState(false);
   const [categorySelected, setCategorySelected] = useState<ICategories>();
-  console.log(categorySelected, "sdsadsadasdsadsad");
 
   const handleComboOpen = (item: ICategories) => {
     if (comboOpen) {
@@ -22,7 +21,7 @@ export const Combobox = () => {
   };
 
   return (
-    <div className="hidden xl:flex flex-col pt-20 ">
+    <div className="hidden sm:flex sm:pt-16 xl:flex flex-col pt-20">
       <div className="bg-grayDark text-white flex gap-10 justify-center">
         {CategoriesData.map((item, index) => (
           <button
@@ -51,7 +50,7 @@ export const Combobox = () => {
         <div
           className={`${
             comboOpen && categorySelected
-              ? "absolute bg-grayLight py-10 px-6 rounded-md grid grid-cols-2 text-white transition-all"
+              ? "absolute bg-grayLight z-10 py-10 px-6 rounded-md grid grid-cols-2 text-white transition-all"
               : "absolute h-0 transition-all overflow-hidden"
           }`}
         >
@@ -68,11 +67,7 @@ export const Combobox = () => {
             ))}
           </div>
           {categorySelected && (
-            <Image
-              alt=""
-              className="max-w-sm"
-              src={categorySelected?.image}
-            ></Image>
+            <Image alt="" className="max-w-sm" src={categorySelected?.image} />
           )}
         </div>
       </div>
