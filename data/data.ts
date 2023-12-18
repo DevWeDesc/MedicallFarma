@@ -692,7 +692,7 @@ export const CategoriesData: ICategories[] = [
 
 export const NavData: IDataNav[] = [
   { name: "Inicio", href: "/#Init" },
-  { name: "Sobre", href: "/#About" },
+  { name: "Sobre", href: "/about" },
   { name: "Produtos em Destaque", href: "/#HighlightsProduct" },
   { name: "Soluções do Momento", href: "/#Soluctions" },
   // { name: "Categorias", href: "/#Categories" },
