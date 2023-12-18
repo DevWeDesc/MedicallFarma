@@ -113,6 +113,9 @@ import EquipoValvulado from "../public/ProductsImage/EMU16A-Extensor-2-Vias-Neon
 import EquipoMicrogotas from "../public/ProductsImage/Equipo-Microgotas-Bureta-La-Vita-PhotoRoom.png-PhotoRoom.png";
 import EquipoDietaEnteral from "../public/ProductsImage/Equipo-de-Dieta-Enteral-La-Vita-PhotoRoom.png-PhotoRoom.png";
 import EquipoMacroGotas from "../public/ProductsImage/EMA-01-Equipo-Macrogotas-Valvulado-Completo-La-Vita-PhotoRoom.png-PhotoRoom.png";
+import curativoSilicone from "../public/ProductsImage/curativosilicone-PhotoRoom.png-PhotoRoom.png";
+import fixadorProtetorCateter from "../public/ProductsImage/fixadorProtetorCateter.png";
+import placaCalcioSorbalgon from "../public/ProductsImage/placaCalcioSorbalgon.jpg";
 
 export const ListProductsData: IListProductsData[] = [
   {
@@ -273,7 +276,7 @@ export const ListProductsData: IListProductsData[] = [
   },
   {
     id: 18,
-    image: imageCurativoAtrauman,
+    image: curativoSilicone,
     category: "Tratamentos de ferida",
     subCatgegory: "Pressão negativa",
     product:
@@ -319,7 +322,7 @@ export const ListProductsData: IListProductsData[] = [
   },
   {
     id: 23,
-    image: ImageCateter,
+    image: fixadorProtetorCateter,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Fixador e protetor de cateter - PELICULA ADESIVA / HARTMANN",
@@ -328,7 +331,7 @@ export const ListProductsData: IListProductsData[] = [
   },
   {
     id: 24,
-    image: ImageAlginato,
+    image: placaCalcioSorbalgon,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product: "Placa alginato de cálcio - SORBALGON / HARTMANN",
@@ -337,7 +340,7 @@ export const ListProductsData: IListProductsData[] = [
   },
   {
     id: 25,
-    image: ImageAlginato,
+    image: ImageCurativoProximel,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product:
@@ -367,7 +370,7 @@ export const ListProductsData: IListProductsData[] = [
   },
   {
     id: 28,
-    image: ImageCurativoProximel,
+    image: ImageEstimulador,
     category: "Tratamentos de ferida",
     subCatgegory: "Curativo",
     product:
