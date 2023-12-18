@@ -9,24 +9,20 @@ export const Combobox = () => {
   const [comboOpen, setComboOpen] = useState(false);
   const [categorySelected, setCategorySelected] = useState<ICategories>();
 
-  const handleComboOpen = (item: ICategories) => {
-    if (comboOpen) {
-      setComboOpen(false);
-      setCategorySelected(item);
-    } else {
-      setCategorySelected(item);
-      setComboOpen(true);
-    }
-  };
-
   return (
     <div className="hidden sm:flex sm:pt-16 xl:flex flex-col pt-20">
       <div className="bg-grayDark text-white flex gap-10 justify-center">
         {CategoriesData.map((item, index) => (
           <button
             key={index}
-            onMouseLeave={() => handleComboOpen(item)}
-            onMouseOver={() => handleComboOpen(item)}
+            onMouseLeave={() => {
+              setCategorySelected(item);
+              setComboOpen(false);
+            }}
+            onMouseOver={() => {
+              setCategorySelected(item);
+              setComboOpen(true);
+            }}
             className={`p-8 bg-grayDark hover:font-bold transition-all ${
               categorySelected?.name === item.name && "font-bold"
             }`}
