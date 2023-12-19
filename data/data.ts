@@ -7,7 +7,7 @@ import {
   IProductsData,
   NavigationSocialMediaType,
   IListProductsData,
-} from "../types/types";
+} from "../src/@types/types";
 import Product1 from "../public/ImageProduct1.png";
 import Product2 from "../public/ImageProduct2.png";
 import Product3 from "../public/ImageProduct3.png";
