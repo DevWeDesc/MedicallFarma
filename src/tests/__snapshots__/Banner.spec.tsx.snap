@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner render Banner Image Products contain 1`] = `[]`;
+
+exports[`Banner render renders Banner unchanged 1`] = `
+<div>
+  <div
+    class="bg-grayDark px-5 flex flex-col gap-8 py-16 sm:pt-24 xl:items-center xl:gap-12 xl:pt-24"
+  >
+    <div
+      class="text-white flex flex-col gap-8"
+    >
+      <h2
+        class="max-w-[387px] m-auto text-2xl sm:text-3xl xl:max-w-4xl font-light text-center xl:text-5xl"
+      >
+        Encontre os melhores Produtos Hospitalares com os Melhores Preços aqui na 
+        <span
+          class="font-bold"
+        >
+          Medicall Farma!
+        </span>
+      </h2>
+    </div>
+    <div
+      style="opacity: 0; transform: scale(0.5) translateZ(0);"
+    >
+      <img
+        alt=""
+        class="m-auto"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        id="banner-image-home"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+    </div>
+  </div>
+</div>
+`;
