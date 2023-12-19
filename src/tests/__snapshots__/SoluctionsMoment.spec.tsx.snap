@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SolutionsMoment render renders SolutionsMoment link unchanged 1`] = `
+<div>
+  <div
+    class="w-full"
+    style="opacity: 0; transform: translateY(200px) translateZ(0);"
+  >
+    <div
+      class="flex flex-col py-14 items-center justify-center bg-grayDark gap-7 text-white lg:py-28 lg:px-28 lg:gap-12 2xl:px-0"
+    >
+      <h2
+        class="text-2xl sm:text-3xl font-bold lg:text-5xl"
+      >
+        Soluções do Momento!
+      </h2>
+      <div
+        class="w-full grid grid-cols-3 gap-1 sm:px-10 sm:gap-3 2xl:px-0 2xl:max-w-7xl 2xl:m-auto"
+      >
+        <a
+          href="/Saneantes"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-blueDark hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Saneantes
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/Tratamentos de ferida"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-yellowDefault hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Tratamentos de ferida
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C10.0226 20.3135 4.91699 17.563 2.86894 13.001L1 13V11L2.21045 11.0009C2.07425 10.3633 2 9.69651 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3ZM16.5 5C15.4241 5 14.2593 5.56911 13.4142 6.41421L12 7.82843L10.5858 6.41421C9.74068 5.56911 8.5759 5 7.5 5C5.55906 5 4 6.6565 4 9C4 9.68542 4.09035 10.3516 4.26658 11.0004L6.43381 11L8.5 7.55635L11.5 12.5563L12.4338 11H17V13H13.5662L11.5 16.4437L8.5 11.4437L7.56619 13L5.10789 13.0006C5.89727 14.3737 7.09304 15.6681 8.64514 16.9029C9.39001 17.4955 10.1845 18.0485 11.0661 18.6038C11.3646 18.7919 11.6611 18.9729 12 19.1752C12.3389 18.9729 12.6354 18.7919 12.9339 18.6038C13.8155 18.0485 14.61 17.4955 15.3549 16.9029C18.3337 14.533 20 11.9435 20 9C20 6.64076 18.463 5 16.5 5Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/Material"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-greenDark hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Material
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 3V5H6V9C6 11.2091 7.79086 13 10 13C12.2091 13 14 11.2091 14 9V5H12V3H15C15.5523 3 16 3.44772 16 4V9C16 11.9727 13.8381 14.4405 11.0008 14.9169L11 16.5C11 18.433 12.567 20 14.5 20C15.9973 20 17.275 19.0598 17.7749 17.7375C16.7283 17.27 16 16.2201 16 15C16 13.3431 17.3431 12 19 12C20.6569 12 22 13.3431 22 15C22 16.3711 21.0802 17.5274 19.824 17.8854C19.2102 20.252 17.0592 22 14.5 22C11.4624 22 9 19.5376 9 16.5L9.00019 14.9171C6.16238 14.4411 4 11.9731 4 9V4C4 3.44772 4.44772 3 5 3H8ZM19 14C18.4477 14 18 14.4477 18 15C18 15.5523 18.4477 16 19 16C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SolutionsMoment render renders SolutionsMoment unchanged 1`] = `
+<div>
+  <div
+    class="w-full"
+    style="opacity: 0; transform: translateY(200px) translateZ(0);"
+  >
+    <div
+      class="flex flex-col py-14 items-center justify-center bg-grayDark gap-7 text-white lg:py-28 lg:px-28 lg:gap-12 2xl:px-0"
+    >
+      <h2
+        class="text-2xl sm:text-3xl font-bold lg:text-5xl"
+      >
+        Soluções do Momento!
+      </h2>
+      <div
+        class="w-full grid grid-cols-3 gap-1 sm:px-10 sm:gap-3 2xl:px-0 2xl:max-w-7xl 2xl:m-auto"
+      >
+        <a
+          href="/Saneantes"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-blueDark hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Saneantes
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 2V4H17V7C18.6569 7 20 8.34315 20 10V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V10C4 8.34315 5.34315 7 7 7V4H5V2H19ZM17 9H7C6.44772 9 6 9.44772 6 10V20H18V10C18 9.44772 17.5523 9 17 9ZM13 11V13H15V15H12.999L13 17H11L10.999 15H9V13H11V11H13ZM15 4H9V7H15V4Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/Tratamentos de ferida"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-yellowDefault hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Tratamentos de ferida
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C10.0226 20.3135 4.91699 17.563 2.86894 13.001L1 13V11L2.21045 11.0009C2.07425 10.3633 2 9.69651 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3ZM16.5 5C15.4241 5 14.2593 5.56911 13.4142 6.41421L12 7.82843L10.5858 6.41421C9.74068 5.56911 8.5759 5 7.5 5C5.55906 5 4 6.6565 4 9C4 9.68542 4.09035 10.3516 4.26658 11.0004L6.43381 11L8.5 7.55635L11.5 12.5563L12.4338 11H17V13H13.5662L11.5 16.4437L8.5 11.4437L7.56619 13L5.10789 13.0006C5.89727 14.3737 7.09304 15.6681 8.64514 16.9029C9.39001 17.4955 10.1845 18.0485 11.0661 18.6038C11.3646 18.7919 11.6611 18.9729 12 19.1752C12.3389 18.9729 12.6354 18.7919 12.9339 18.6038C13.8155 18.0485 14.61 17.4955 15.3549 16.9029C18.3337 14.533 20 11.9435 20 9C20 6.64076 18.463 5 16.5 5Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/Material"
+        >
+          <div
+            class="h-full flex flex-col justify-between px-2 py-3 rounded-lg bg-greenDark hover:bg-opacity-90 transition-all sm:gap-4 lg:px-9 lg:py-9"
+          >
+            <p
+              class="text-sm sm:text-xl font-semibold lg:h-20 xl:h-auto lg:text-4xl"
+            >
+              Material
+            </p>
+            <div
+              class="flex items-start justify-between lg:mt-5"
+            >
+              <button
+                class="text-[10px] bg-transparent border-b pb-[2px] border-white sm:text-sm lg:text-lg"
+              >
+                Conheça agora
+              </button>
+              <svg
+                class="text-4xl lg:text-8xl xl:text-9xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 3V5H6V9C6 11.2091 7.79086 13 10 13C12.2091 13 14 11.2091 14 9V5H12V3H15C15.5523 3 16 3.44772 16 4V9C16 11.9727 13.8381 14.4405 11.0008 14.9169L11 16.5C11 18.433 12.567 20 14.5 20C15.9973 20 17.275 19.0598 17.7749 17.7375C16.7283 17.27 16 16.2201 16 15C16 13.3431 17.3431 12 19 12C20.6569 12 22 13.3431 22 15C22 16.3711 21.0802 17.5274 19.824 17.8854C19.2102 20.252 17.0592 22 14.5 22C11.4624 22 9 19.5376 9 16.5L9.00019 14.9171C6.16238 14.4411 4 11.9731 4 9V4C4 3.44772 4.44772 3 5 3H8ZM19 14C18.4477 14 18 14.4477 18 15C18 15.5523 18.4477 16 19 16C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
