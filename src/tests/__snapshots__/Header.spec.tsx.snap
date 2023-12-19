@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Header render Header Rendered image 1`] = `[]`;
+
 exports[`Header render renders header unchanged 1`] = `
 <div>
   <div
@@ -15,6 +17,7 @@ exports[`Header render renders header unchanged 1`] = `
         data-nimg="1"
         decoding="async"
         height="40"
+        id="logo-medicall"
         loading="lazy"
         src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
         srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
