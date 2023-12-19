@@ -12,8 +12,10 @@ describe("Header render", () => {
   });
 
   it("Header Rendered image", () => {
-    const { getByRole } = render(<Header />);
+    const { getByRole, queryAllByTestId } = render(<Header />);
 
     expect(getByRole("img")).toBeInTheDocument();
+
+    expect(queryAllByTestId("logo-medicall")).toMatchSnapshot();
   });
 });
