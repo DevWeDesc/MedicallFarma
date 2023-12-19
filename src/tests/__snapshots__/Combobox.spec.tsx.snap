@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render renders header unchanged 1`] = `
+<div>
+  <div
+    class="hidden sm:flex sm:pt-16 xl:flex flex-col pt-20"
+  >
+    <div
+      class="bg-grayDark text-white flex gap-10 justify-center"
+    >
+      <button
+        class="p-8 bg-grayDark hover:font-bold transition-all false"
+      >
+        Saneantes
+      </button>
+      <button
+        class="p-8 bg-grayDark hover:font-bold transition-all false"
+      >
+        Tratamentos de ferida
+      </button>
+      <button
+        class="p-8 bg-grayDark hover:font-bold transition-all false"
+      >
+        Material
+      </button>
+    </div>
+    <div
+      class="relative flex w-full justify-center"
+    >
+      <div
+        class="absolute h-0 transition-all overflow-hidden"
+      >
+        <div
+          class="flex flex flex-col gap-6"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
