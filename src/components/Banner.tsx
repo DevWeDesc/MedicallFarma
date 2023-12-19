@@ -38,7 +38,12 @@ export const Banner = () => {
           },
         }}
       >
-        <Image alt="" className="m-auto" src={ImageBanner} />
+        <Image
+          id="banner-image-home"
+          alt=""
+          className="m-auto"
+          src={ImageBanner}
+        />
       </motion.div>
       {/* <Image alt="" src={ImageBanner} /> */}
     </div>

@@ -4,7 +4,7 @@ import { Combobox } from "@/components/Combobox";
 import { HighlightsProducts } from "@/components/HighlightsProducts";
 import { ProductsRecommended } from "@/components/ProductsRecommended";
 import { Separator } from "@/components/Separator";
-import SolutionsMoment from "@/components/SolutionsMoment";
+import { SolutionsMoment } from "@/components/SolutionsMoment";
 import { Suppliers } from "@/components/Suppliers";
 import Link from "next/link";
 import { Motion } from "@/animations/Motion";

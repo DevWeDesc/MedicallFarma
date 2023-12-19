@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import SwiperHighlighs from "./SwiperHighlighs/SwiperHighlighs";
 import { AnimationScroll } from "@/animations/AnimationScroll";

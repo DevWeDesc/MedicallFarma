@@ -3,7 +3,7 @@ import { CardSoluctionData } from "../../data/data";
 import { CardSolutions } from "./Cards/CardSolutions";
 import { AnimationScroll } from "@/animations/AnimationScroll";
 
-export default function SolutionsMoment() {
+export const SolutionsMoment = () => {
   return (
     <AnimationScroll>
       <div className="flex flex-col py-14 items-center justify-center bg-grayDark gap-7 text-white lg:py-28 lg:px-28 lg:gap-12 2xl:px-0">
@@ -22,4 +22,4 @@ export default function SolutionsMoment() {
       </div>
     </AnimationScroll>
   );
-}
+};
