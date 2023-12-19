@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { NavData } from "../../data/data";
-import { NavType } from "../../types/types";
+import { NavType } from "../@types/types";
 
 export const Nav = ({ menuOpen, handleMenuOpen }: NavType) => {
   return (

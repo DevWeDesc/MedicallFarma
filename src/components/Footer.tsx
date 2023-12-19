@@ -4,7 +4,7 @@ import Logo from "../../public/Logo.png";
 import { NavData, NavigationSocialMedia } from "../../data/data";
 import Link from "next/link";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { NavigationSocialMediaType } from "../../types/types";
+import { NavigationSocialMediaType } from "../@types/types";
 
 export const Footer = () => {
   const SocialMediaIcon = ({ title, href }: NavigationSocialMediaType) => {

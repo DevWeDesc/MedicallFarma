@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 import { ListProductsData } from "../../data/data";
-import { IListProductsData } from "../../types/types";
+import { IListProductsData } from "../@types/types";
 import Link from "next/link";
 import Image from "next/image";
 import { IoArrowBackOutline } from "react-icons/io5";

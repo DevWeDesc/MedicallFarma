@@ -4,7 +4,7 @@ import {
   ListProductsData,
   ProductsRecomendedData,
 } from "../../../../data/data";
-import { IListProductsData, IProductsData } from "../../../../types/types";
+import { IListProductsData, IProductsData } from "../../../@types/types";
 import { CardProduct } from "@/components/Cards/CardProduct";
 import Link from "next/link";
 import SwiperHighlighs from "@/components/SwiperHighlighs/SwiperHighlighs";

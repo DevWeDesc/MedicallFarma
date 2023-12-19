@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { IListProductsData, IProductsData } from "../../../types/types";
+import { IListProductsData, IProductsData } from "../../@types/types";
 
 export const CardProduct = ({
   image,

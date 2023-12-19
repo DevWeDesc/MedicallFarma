@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { CategoriesData } from "../../data/data";
-import { ICategories } from "../../types/types";
+import { ICategories } from "../@types/types";
 
 export const Combobox = () => {
   const [comboOpen, setComboOpen] = useState(false);

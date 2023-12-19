@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render renders header unchanged 1`] = `
+<div>
+  <div
+    class="xl:justify-items-center xl:grid xl:grid-cols-12 2xl:px-64 fixed z-30 w-full flex items-center justify-between gap-4 bg-grayDark px-2  py-4"
+  >
+    <a
+      class="col-span-2"
+      href="/"
+    >
+      <img
+        alt=""
+        class="h-5 sm:h-10 w-auto xl:h-14"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+    </a>
+    <div
+      class="w-[60%] xl:w-[100%] hidden xl:block xl:col-span-8"
+    >
+      <div
+        class="bg-grayLight py-1 px-2 gap-2 flex justify-center rounded-full w-full relative lg:w-2/3 lg:m-auto"
+      >
+        <div
+          class="h-full flex items-center p-1 text-white justify-center xl:hidden"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M244 400L100 256l144-144M120 256h292"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+            />
+          </svg>
+        </div>
+        <input
+          class="w-full text-[10px] bg-transparent outline-none focus:bg-transparent value:bg-transparent text-white placeholder-gray-300 xl:p-3 xl:text-sm"
+          id="serchBar"
+          placeholder="Procure Produtos!!"
+          type="text"
+          value=""
+        />
+        <label
+          class="p-1 xl:p-2 bg-grayDefault text-white rounded-full xl:text-3xl"
+          for="serchBar"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M443.5 420.2L336.7 312.4c20.9-26.2 33.5-59.4 33.5-95.5 0-84.5-68.5-153-153.1-153S64 132.5 64 217s68.5 153 153.1 153c36.6 0 70.1-12.8 96.5-34.2l106.1 107.1c3.2 3.4 7.6 5.1 11.9 5.1 4.1 0 8.2-1.5 11.3-4.5 6.6-6.3 6.8-16.7.6-23.3zm-226.4-83.1c-32.1 0-62.3-12.5-85-35.2-22.7-22.7-35.2-52.9-35.2-84.9 0-32.1 12.5-62.3 35.2-84.9 22.7-22.7 52.9-35.2 85-35.2s62.3 12.5 85 35.2c22.7 22.7 35.2 52.9 35.2 84.9 0 32.1-12.5 62.3-35.2 84.9-22.7 22.7-52.9 35.2-85 35.2z"
+            />
+          </svg>
+        </label>
+      </div>
+    </div>
+    <div
+      class="flex items-center gap-5 xl:col-span-2 xl:col-start-12"
+    >
+      <svg
+        class="text-2xl text-white xl:hidden"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M443.5 420.2L336.7 312.4c20.9-26.2 33.5-59.4 33.5-95.5 0-84.5-68.5-153-153.1-153S64 132.5 64 217s68.5 153 153.1 153c36.6 0 70.1-12.8 96.5-34.2l106.1 107.1c3.2 3.4 7.6 5.1 11.9 5.1 4.1 0 8.2-1.5 11.3-4.5 6.6-6.3 6.8-16.7.6-23.3zm-226.4-83.1c-32.1 0-62.3-12.5-85-35.2-22.7-22.7-35.2-52.9-35.2-84.9 0-32.1 12.5-62.3 35.2-84.9 22.7-22.7 52.9-35.2 85-35.2s62.3 12.5 85 35.2c22.7 22.7 35.2 52.9 35.2 84.9 0 32.1-12.5 62.3-35.2 84.9-22.7 22.7-52.9 35.2-85 35.2z"
+        />
+      </svg>
+      <div
+        class="w-6 flex flex-col gap-[6px] cursor-pointer"
+      >
+        <div
+          class="h-[1.5px] bg-white transition-all "
+        />
+        <div
+          class="h-[1.5px] bg-white "
+        />
+        <div
+          class="h-[1.5px] bg-white transition-all "
+        />
+      </div>
+    </div>
+    <div
+      class="text-white h-screen top-12 mt-1 right-0 fixed flex flex-col gap-6 w-0 transition-all opacity-0"
+    >
+      <a
+        href="/#Init"
+      >
+        Inicio
+      </a>
+      <a
+        href="/about"
+      >
+        Sobre
+      </a>
+      <a
+        href="/#HighlightsProduct"
+      >
+        Produtos em Destaque
+      </a>
+      <a
+        href="/#Soluctions"
+      >
+        Soluções do Momento
+      </a>
+      <a
+        href="/#Suppliers"
+      >
+        Fornecedores
+      </a>
+      <a
+        href="/#productRecomended"
+      >
+        Produtos Recomendados
+      </a>
+      <a
+        href="/#Contact"
+      >
+        Contatos
+      </a>
+    </div>
+  </div>
+</div>
+`;

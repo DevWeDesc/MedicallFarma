@@ -7,7 +7,7 @@ import "./styles.css";
 import { HighlightsProductsData, ListProductsData } from "../../../data/data";
 import { CardProduct } from "../Cards/CardProduct";
 import Link from "next/link";
-import { IListProductsData } from "../../../types/types";
+import { IListProductsData } from "../../@types/types";
 
 export default function SwiperHighlighs() {
   const [slidesPerView, setSlidesPerView] = useState(2.1);

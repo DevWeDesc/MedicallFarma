@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { CardProduct } from "./Cards/CardProduct";
-import { IProducsCategoryComponent } from "../../types/types";
+import { IProducsCategoryComponent } from "../@types/types";
 import Image from "next/image";
 import { AnimationScroll } from "@/animations/AnimationScroll";
 

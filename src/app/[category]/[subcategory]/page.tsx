@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { ListProductsData } from "../../../../data/data";
-import { IListProductsData } from "../../../../types/types";
+import { IListProductsData } from "../../../@types/types";
 import { StaticImageData } from "next/image";
 import ImageDietaEnteral from "../../../../public/ImageDietasEnterais.png";
 import ImageAcessories from "../../../../public/ImageAcessoriesMedic.png";

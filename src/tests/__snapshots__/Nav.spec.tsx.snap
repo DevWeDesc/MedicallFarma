@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders NavBar unchanged 1`] = `
+<div>
+  <div
+    class="text-white h-screen top-12 mt-1 right-0 fixed flex flex-col gap-6 w-0 transition-all opacity-0"
+  >
+    <a
+      href="/#Init"
+    >
+      Inicio
+    </a>
+    <a
+      href="/about"
+    >
+      Sobre
+    </a>
+    <a
+      href="/#HighlightsProduct"
+    >
+      Produtos em Destaque
+    </a>
+    <a
+      href="/#Soluctions"
+    >
+      Soluções do Momento
+    </a>
+    <a
+      href="/#Suppliers"
+    >
+      Fornecedores
+    </a>
+    <a
+      href="/#productRecomended"
+    >
+      Produtos Recomendados
+    </a>
+    <a
+      href="/#Contact"
+    >
+      Contatos
+    </a>
+  </div>
+</div>
+`;
+
+exports[`NavBar renders NavBar unchanged 2`] = `
+[
+  <a
+    href="/#Init"
+  >
+    Inicio
+  </a>,
+]
+`;

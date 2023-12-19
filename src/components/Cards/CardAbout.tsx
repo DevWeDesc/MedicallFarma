@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
-import { ICardAbout } from "../../../types/types";
+import { ICardAbout } from "../../@types/types";
 import { TbTargetArrow } from "react-icons/tb";
 import { LiaEyeSolid } from "react-icons/lia";
 import { TbCategory2 } from "react-icons/tb";
