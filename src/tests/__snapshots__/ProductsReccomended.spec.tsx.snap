@@ -1,0 +1,1500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsReccomended renders ProductsReccomended unchanged 1`] = `
+<div>
+  <div
+    class="w-full"
+    style="opacity: 0; transform: translateY(200px) translateZ(0);"
+  >
+    <div
+      class="py-12 px-5 flex flex-col gap-5 lg:py-28 lg:px-28 lg:gap-14 2xl:px-0 2xl:max-w-7xl 2xl:m-auto"
+    >
+      <h2
+        class="text-xl font-bold sm:text-3xl lg:text-5xl"
+      >
+        Produtos Recomendados para Você!
+      </h2>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-4 gap-10 lg:grid-cols-5 lg:gap-20"
+      >
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/1"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Desinfetante alto nível - Glutomax
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza e desinfecção
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                Glutomax
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/2"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Desinfetante - CISA NANOPLUS
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza e desinfecção
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                CISA NANOPLUS
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/3"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente desinfetante concentrado - PEROXY PLUS
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza multiuso
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                PEROXY PLUS
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/4"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Desifetante hospitalar - W80
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza em superfície fixa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                W80
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/5"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Solução concentrada - CISA NOX
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Desincrustante
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                CISA NOX
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/6"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente - CISA ZYMES ECO
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza de instrumentais cirúrgicos
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                 CISA ZYMES ECO
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/7"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente multienzimático - ENZYMA 6
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza instrumental cirúrgico e materiais hospitalares
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                ENZYMA 6
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/8"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente - CISA ZYMES ECO
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza e desinfecção gorduras e celuloses
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                CISA ZYMES ECO
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/9"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente Enzimatico - PROACTION ANIOS
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza para pré uso de materias  hospitalares
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                PROACTION ANIOS
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/10"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente Enziamatico - COSMODERNA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza manual, mecânica, ultrassônica dos artigos cirúrgicos e endoscópios
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                COSMODERNA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/11"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente Enzimatico - RYOZIBE EX RIOQUIMICA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Cirúrgicos, canulados, odontológicos, inalatórios, endoscópios e laboratoriais
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                RIOQUIMICA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/12"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente Enzimatico - COSMODERMA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza de endoscópios, cateteres, odontologicos, pisos e vidrarias
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                COSMODERMA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/13"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Detergente multienzimático  - MEGAZYNE COSMODERNA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Limpeza de aparelhos óticas
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                MEGAZYNE
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/14"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Vivanotec Y - HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Pressão negativa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/15"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Portsystem/Conector - HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Pressão negativa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/16"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Kit para terapia P, M, G e ABDOMINAL - HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Pressão negativa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/17"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Reservatórios 300ML e 800ML - HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Pressão negativa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/18"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Curativo revestido com gel de silicone - ATRAUMAN SILICONE / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Pressão negativa
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/19"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Creme barreira - HIDRATANTE DERMILON COSMODERMA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Protetor contra fluidos corporais
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                COSMODERMA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/20"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Curativo impregnado com prata - ATRAUMAN AG / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/21"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Compressa absorvente - HYDROFILM PLUS
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HYDROFILM
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/22"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Curativo Transparente - HYDROFILM
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HYDROFILM
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/23"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Fixador e protetor de cateter - PELICULA ADESIVA / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/24"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Placa alginato de cálcio - SORBALGON / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/25"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL AG / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/26"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL DRESSING / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/27"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Estimulador do gerenciamento dinâmico de fluidos - PROXIMEL NON BORDER / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/28"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Estimulador do gerenciamento dinâmico de fluidos (desenvolvido para região sacral) - PROXIMEL SACRAL  / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/29"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Absorção da secreção conservando em sua estrutura  (desenvolvido para região sacral) - PROXIMEL SACRAL HYDROCOLL / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Curativo
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/30"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Fralda geriatrica diurna - FRALDA MOLICARE PREMIUM ELASTIC 6D  / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Higiene pessoal
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/31"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Fralda geriatrica noturna  - FRALDA MOLICARE PREMIUM ELASTIC 8D  / HARTMANN
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Higiene pessoal
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                HARTMANN
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/32"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Equipo  2 vias C CLAMP  - LA VITA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Equipo para infusão de multiplas
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                LA VITA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/33"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Equipo 2 via valvulado - LA VITA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Equipo para acessorio na terapia infusional
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                LA VITA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/34"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Equipo Bureta fl de ar - LA VITA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Equipo para idosos e pediatria com rigoroso controle de gatejamento 
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                LA VITA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/35"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Equipo dieta Enteral - LA VITA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Equipo para admnistração de dietas, araves de sondas enteral ou nasogástrica
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                LA VITA
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          class="hover:scale-105 transition-all"
+          href="/detailsProduct/36"
+        >
+          <div
+            class="flex flex-col text-left gap-2 h-full justify-between gap-2"
+          >
+            <img
+              alt=""
+              class="min-h-[146px] max-h-[146px] lg:min-h-[207px] lg:max-h-[207px] object-contain"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="flex flex-col h-full justify-between"
+            >
+              <p
+                class="font-medium min-h-[32px] lg:min-h-[48px] text-xs lg:text-sm"
+              >
+                Equipo macro completo Injetor lateral  - LA VITA
+              </p>
+              <p
+                class="font-light pr-3 text-xs lg:text-sm lg:min-h-[60px] lg:flex lg:items-center"
+              >
+                Equipo pode ser utilizado com agulhas, escalpes, catetes ou torneiras
+              </p>
+              <p
+                class="font-medium  text-xs lg:text-sm"
+              >
+                Fornecido por 
+                LA VITA
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

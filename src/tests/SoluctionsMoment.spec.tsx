@@ -20,7 +20,7 @@ describe("SolutionsMoment render", () => {
   it("Solutions Moment Text contain", () => {
     const { getByText } = render(<SolutionsMoment />);
 
-    expect(getByText("Soluções do Momento!"));
+    expect(getByText("Soluções do Momento!")).toBeInTheDocument();
     expect(getByText("Saneantes")).toBeInTheDocument();
     expect(getByText("Tratamentos de ferida")).toBeInTheDocument();
     expect(getByText("Material")).toBeInTheDocument();

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Aboult render renders Aboult unchanged 1`] = `
+<div>
+  <div
+    class="flex flex-col-reverse py-12 px-5 gap-5 lg:pt-0 lg:px-0 lg:grid lg:grid-cols-2 lg:gap-20 lg:py-0"
+  >
+    <img
+      alt=""
+      class="w-full lg:min-h-[30rem] lg:w-full lg:h-auto"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="40"
+    />
+    <div
+      class="flex flex-col gap-4 lg:py-8 lg:pr-16 lg:gap-10 2xl:pr-80 xl:justify-center"
+    >
+      <div
+        class="flex flex-col lg:gap-5"
+      >
+        <h2
+          class="text-4xl font-bold lg:text-5xl"
+        >
+          Sobre a Medicall 
+          <br />
+           Farma
+        </h2>
+        <div
+          class="text-xs font-light lg:text-lg flex flex-col gap-1 lg:gap-3"
+        >
+          <p>
+            Atuamos há mais de 10 anos no mercado de vendas e distribuição de materiais médicos e medicamentos hospitalares em todo o estado de São Paulo.
+          </p>
+          <p>
+            Oferecemos a melhor experiência de atendimento aos nossos clientes, fornecedores e acionistas, dede o primeiro contato. Trabalhamos com um mix de Produtos.
+          </p>
+          <p>
+            Diversificados das melhores marcas nacionais e internacionais garantimos total adilidade e pontualidade nas entregas através de um rigoroso processo de qualidade operacional.
+          </p>
+          <p>
+            Nossos colaboradores não medem esforços para alcançar a plena satisfação de nossos clientes e parceiros. Agilidade, preticidade, inovação e ética são compromissos assumidos pela MEDICALL FARMA.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
