@@ -8,6 +8,7 @@ import { SolutionsMoment } from "@/components/SolutionsMoment";
 import { Suppliers } from "@/components/Suppliers";
 import Link from "next/link";
 import { Motion } from "@/animations/Motion";
+import { AboutSectionHome } from "@/components/AboutSectionHome";
 
 export default function Home() {
   return (
@@ -32,11 +33,8 @@ export default function Home() {
       <section id="productRecomended">
         <ProductsRecommended />
       </section>
-      <section className="flex flex-col justify-center items-center py-9 gap-8 bg-grayLight text-white">
-        <p>Conhça mais sobre a MEDICALL FARMA</p>
-        <Link className="w-full text-center" href="about">
-          Ir para About
-        </Link>
+      <section>
+        <AboutSectionHome />
       </section>
       <Motion />
     </main>
