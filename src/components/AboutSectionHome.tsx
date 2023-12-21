@@ -14,7 +14,7 @@ export const AboutSectionHome = () => {
           src={imageMedicall}
         />
         <div className="absolute h-full w-full flex flex-col justify-center gap-8 items-center">
-          <p className="text-2xl font-bold">
+          <p className="text-2xl font-bold px-5 text-center">
             Conheça mais sobre a MEDICALL FARMA
           </p>
           <Link
