@@ -1,5 +1,7 @@
 import React from "react";
 import ImagesGrid from "../../public/ImagesGrid.png";
+import ImageBannerAbout2 from "../../public/segundaimagemabult.jpg";
+
 import Image from "next/image";
 
 export const Aboult = () => {
@@ -8,7 +10,7 @@ export const Aboult = () => {
       <Image
         alt=""
         className="w-full lg:min-h-[30rem] lg:w-full lg:h-auto"
-        src={ImagesGrid}
+        src={ImageBannerAbout2}
       />
       <div className="flex flex-col gap-4 lg:py-8 lg:pr-16 lg:gap-10 2xl:pr-80 xl:justify-center">
         <div className="flex flex-col lg:gap-5">
